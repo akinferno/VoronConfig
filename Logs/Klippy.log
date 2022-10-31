@@ -1,1 +1,4929 @@
+=============== Log rollover at Mon Oct 31 00:10:01 2022 ===============
+Starting Klippy...
+Args: ['/home/pi/klipper/klippy/klippy.py', '/home/pi/klipper_config/printer.cfg', '-l', '/home/pi/klipper_logs/klippy.log', '-a', '/tmp/klippy_uds']
+Git version: 'v0.10.0-515-g24a1b50e'
+CPU: 4 core ARMv7 Processor rev 4 (v7l)
+Python: '2.7.18 (default, Jul 14 2021, 08:11:37) \n[GCC 10.2.1 20210110]'
+Start printer at Mon Oct 31 00:10:02 2022 (1667203802.4 14.4)
+Unable to open config file /home/pi/klipper_config/printer.cfg
+Traceback (most recent call last):
+  File "/home/pi/klipper/klippy/configfile.py", line 154, in _read_config_file
+    f = open(filename, 'r')
+IOError: [Errno 2] No such file or directory: '/home/pi/klipper_config/printer.cfg'
+Config error
+Traceback (most recent call last):
+  File "/home/pi/klipper/klippy/klippy.py", line 175, in _connect
+    self._read_config()
+  File "/home/pi/klipper/klippy/klippy.py", line 134, in _read_config
+    config = pconfig.read_main_config()
+  File "/home/pi/klipper/klippy/configfile.py", line 275, in read_main_config
+    data = self._read_config_file(filename)
+  File "/home/pi/klipper/klippy/configfile.py", line 160, in _read_config_file
+    raise error(msg)
+Error: Unable to open config file /home/pi/klipper_config/printer.cfg
+webhooks client 1975802016: New connection
+webhooks client 1975802016: Client info {'program': 'Moonraker', 'version': 'v0.7.1-597-gd37f91c'}
+Starting Klippy...
+Args: ['/home/pi/klipper/klippy/klippy.py', '/home/pi/klipper_config/printer.cfg', '-l', '/home/pi/klipper_logs/klippy.log', '-a', '/tmp/klippy_uds']
+Git version: 'v0.10.0-515-g24a1b50e'
+CPU: 4 core ARMv7 Processor rev 4 (v7l)
+Python: '2.7.18 (default, Jul 14 2021, 08:11:37) \n[GCC 10.2.1 20210110]'
+Start printer at Mon Oct 31 00:14:58 2022 (1667204098.2 14.1)
+Unable to open config file /home/pi/klipper_config/printer.cfg
+Traceback (most recent call last):
+  File "/home/pi/klipper/klippy/configfile.py", line 154, in _read_config_file
+    f = open(filename, 'r')
+IOError: [Errno 2] No such file or directory: '/home/pi/klipper_config/printer.cfg'
+Config error
+Traceback (most recent call last):
+  File "/home/pi/klipper/klippy/klippy.py", line 175, in _connect
+    self._read_config()
+  File "/home/pi/klipper/klippy/klippy.py", line 134, in _read_config
+    config = pconfig.read_main_config()
+  File "/home/pi/klipper/klippy/configfile.py", line 275, in read_main_config
+    data = self._read_config_file(filename)
+  File "/home/pi/klipper/klippy/configfile.py", line 160, in _read_config_file
+    raise error(msg)
+Error: Unable to open config file /home/pi/klipper_config/printer.cfg
+webhooks client 1975015584: New connection
+webhooks client 1975015584: Client info {'program': 'Moonraker', 'version': 'v0.7.1-597-gd37f91c'}
+Starting Klippy...
+Args: ['/home/pi/klipper/klippy/klippy.py', '/home/pi/klipper_config/printer.cfg', '-l', '/home/pi/klipper_logs/klippy.log', '-a', '/tmp/klippy_uds']
+Git version: 'v0.10.0-515-g24a1b50e'
+CPU: 4 core ARMv7 Processor rev 4 (v7l)
+Python: '2.7.18 (default, Jul 14 2021, 08:11:37) \n[GCC 10.2.1 20210110]'
+Start printer at Mon Oct 31 00:15:50 2022 (1667204150.9 53.4)
+Unable to open config file /home/pi/klipper_config/printer.cfg
+Traceback (most recent call last):
+  File "/home/pi/klipper/klippy/configfile.py", line 154, in _read_config_file
+    f = open(filename, 'r')
+IOError: [Errno 2] No such file or directory: '/home/pi/klipper_config/printer.cfg'
+Config error
+Traceback (most recent call last):
+  File "/home/pi/klipper/klippy/klippy.py", line 175, in _connect
+    self._read_config()
+  File "/home/pi/klipper/klippy/klippy.py", line 134, in _read_config
+    config = pconfig.read_main_config()
+  File "/home/pi/klipper/klippy/configfile.py", line 275, in read_main_config
+    data = self._read_config_file(filename)
+  File "/home/pi/klipper/klippy/configfile.py", line 160, in _read_config_file
+    raise error(msg)
+Error: Unable to open config file /home/pi/klipper_config/printer.cfg
+webhooks client 1975339168: New connection
+webhooks client 1975339168: Client info {'program': 'Moonraker', 'version': 'v0.7.1-597-gd37f91c'}
+webhooks client 1975339168: Disconnected
+Restarting printer
+Start printer at Mon Oct 31 00:19:38 2022 (1667204378.6 281.1)
+Config error
+Traceback (most recent call last):
+  File "/home/pi/klipper/klippy/klippy.py", line 175, in _connect
+    self._read_config()
+  File "/home/pi/klipper/klippy/klippy.py", line 134, in _read_config
+    config = pconfig.read_main_config()
+  File "/home/pi/klipper/klippy/configfile.py", line 277, in read_main_config
+    regular_config = self._build_config_wrapper(regular_data, filename)
+  File "/home/pi/klipper/klippy/configfile.py", line 264, in _build_config_wrapper
+    self._parse_config(data, filename, fileconfig, set())
+  File "/home/pi/klipper/klippy/configfile.py", line 253, in _parse_config
+    visited)
+  File "/home/pi/klipper/klippy/configfile.py", line 225, in _resolve_include
+    raise error("Include file '%s' does not exist" % (include_glob,))
+Error: Include file '/home/pi/klipper_config/stealthburner_leds.cfg' does not exist
+webhooks client 1975831448: New connection
+webhooks client 1975831448: Client info {'program': 'Moonraker', 'version': 'v0.7.1-597-gd37f91c'}
+webhooks client 1975831448: Disconnected
+Restarting printer
+Start printer at Mon Oct 31 00:20:58 2022 (1667204459.0 361.5)
+===== Config file =====
+[virtual_sdcard]
+path = /home/pi/gcode_files
 
+[pause_resume]
+recover_velocity = 50.0
+
+[display_status]
+
+[gcode_macro CANCEL_PRINT]
+description = Cancel the actual running print
+rename_existing = CANCEL_PRINT_BASE
+gcode = 
+	TURN_OFF_HEATERS
+	CANCEL_PRINT_BASE
+
+[gcode_macro PAUSE]
+description = Pause the actual running print
+rename_existing = PAUSE_BASE
+variable_extrude = 1.0
+gcode = 
+	{% set E = printer["gcode_macro PAUSE"].extrude|float %}
+	{% set x_park = printer.toolhead.axis_maximum.x|float - 5.0 %}
+	{% set y_park = printer.toolhead.axis_maximum.y|float - 5.0 %}
+	{% set max_z = printer.toolhead.axis_maximum.z|float %}
+	{% set act_z = printer.toolhead.position.z|float %}
+	{% if act_z < (max_z - 2.0) %}
+	{% set z_safe = 2.0 %}
+	{% else %}
+	{% set z_safe = max_z - act_z %}
+	{% endif %}
+	PAUSE_BASE
+	G91
+	{% if printer.extruder.can_extrude|lower == 'true' %}
+	G1 E-{E} F2100
+	{% else %}
+	{action_respond_info("Extruder not hot enough")}
+	{% endif %}
+	{% if "xyz" in printer.toolhead.homed_axes %}
+	G1 Z{z_safe} F900
+	G90
+	G1 X{x_park} Y{y_park} F6000
+	{% else %}
+	{action_respond_info("Printer not homed")}
+	{% endif %}
+
+[gcode_macro RESUME]
+description = Resume the actual running print
+rename_existing = RESUME_BASE
+gcode = 
+	{% set E = printer["gcode_macro PAUSE"].extrude|float %}
+	{% if 'VELOCITY' in params|upper %}
+	{% set get_params = ('VELOCITY=' + params.VELOCITY)  %}
+	{%else %}
+	{% set get_params = "" %}
+	{% endif %}
+	{% if printer.extruder.can_extrude|lower == 'true' %}
+	G91
+	G1 E{E} F2100
+	{% else %}
+	{action_respond_info("Extruder not hot enough")}
+	{% endif %}
+	RESUME_BASE {get_params}
+
+[neopixel sb_leds]
+pin = PD3
+chain_count = 10
+color_order = GRB, GRB, GRB, GRB, GRB, GRB, GRB, GRB, GRBW,  GRBW
+initial_red = 1.0
+initial_green = 0.0
+initial_blue = 1.0
+initial_white = 0.0
+
+[led_effect sb_logo_busy]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (1,0,0)
+
+[led_effect sb_logo_cleaning]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.0, 0.02, 0.5)
+
+[led_effect sb_logo_calibrating_z]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.0, 0.0, 0.35)
+
+[led_effect sb_logo_heating]
+leds = 
+	neopixel:sb_leds (1,3,7,8,6,2)
+autostart = false
+frame_rate = 24
+layers = 
+	comet  0.3  0 add (1, 0.18, 0)
+
+[led_effect sb_logo_cooling]
+leds = 
+	neopixel:sb_leds (1,3,7,8,6,2)
+autostart = false
+frame_rate = 24
+layers = 
+	comet  0.3  0 add (0, 0, 1)
+
+[led_effect sb_logo_homing]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.0, 0.6, 0.2)
+
+[led_effect sb_logo_leveling]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.5, 0.1, 0.4)
+
+[led_effect sb_logo_meshing]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.2, 1.0, 0.0)
+
+[led_effect sb_logo_printing]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	gradient  0.3  1 add (0.3, 0.0, 0.0),(0.3, 0.3, 0.0),(0.3, 0.1, 0.0)
+
+[led_effect sb_logo_standby]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.01, 0.01, 0.01)
+
+[led_effect sb_logo_part_ready]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.0, 1.0, 0.0)
+
+[led_effect sb_nozzle_heating]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (9,10)
+layers = 
+	breathing  3 1 top (1.0, 0.18, 0.0, 0.0)
+
+[led_effect sb_nozzle_cooling]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (9,10)
+layers = 
+	breathing  3 1 top (0.0, 0.0, 1.0, 0.1)
+
+[led_effect sb_nozzle_standby]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (9,10)
+layers = 
+	breathing  3 1 top (0.6, 0.0, 0.0, 0.0)
+
+[led_effect sb_nozzle_part_ready]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (9,10)
+layers = 
+	breathing  3 1 top (0.6, 1.0, 0.0, 0.1)
+
+[led_effect sb_critical_error]
+leds = 
+	neopixel:sb_leds
+layers = 
+	strobe         1  1.5   add        (1.0,  1.0, 1.0)
+	breathing      2  0     difference (0.95, 0.0, 0.0)
+	static         1  0     top        (1.0,  0.0, 0.0)
+autostart = false
+frame_rate = 24
+run_on_error = true
+
+[led_effect rainbow]
+leds = 
+	neopixel:sb_leds
+autostart = true
+frame_rate = 24
+layers = 
+	gradient  0.3  1 add (0.3, 0.0, 0.0),(0.0, 0.3, 0.0),(0.0, 0.0, 0.3)
+
+[led_effect set_nozzle_leds]
+leds = 
+	neopixel:sb_leds (9,10)
+autostart = false
+frame_rate = 24
+layers = 
+	static         0  0     top        (0.0,  0.0, 0.0, 1.0)
+
+[led_effect set_logo_leds]
+leds = 
+	neopixel:sb_leds (1,2,3,4,5,6,7,8)
+autostart = false
+frame_rate = 24
+layers = 
+	static         0  0     top        (1.0,  1.0, 1.0)
+
+[gcode_macro set_logo_leds_off]
+gcode = 
+	SET_LED_EFFECT EFFECT=set_logo_leds STOP=1
+
+[gcode_macro set_logo_leds_on]
+gcode = 
+	SET_LED_EFFECT EFFECT=set_logo_leds
+
+[gcode_macro set_nozzle_leds_on]
+gcode = 
+	SET_LED_EFFECT EFFECT=set_nozzle_leds
+
+[gcode_macro set_nozzle_leds_off]
+gcode = 
+	SET_LED_EFFECT EFFECT=set_nozzle_leds STOP=1
+
+[gcode_macro status_off]
+gcode = 
+	STOP_LED_EFFECTS
+
+[gcode_macro status_ready]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=rainbow
+
+[gcode_macro status_part_ready]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_nozzle_part_ready
+	SET_LED_EFFECT EFFECT=sb_logo_part_ready
+
+[gcode_macro status_busy]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_busy
+	set_nozzle_leds_on
+
+[gcode_macro status_heating]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_heating
+	SET_LED_EFFECT EFFECT=sb_nozzle_heating
+
+[gcode_macro status_cooling]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_cooling
+	SET_LED_EFFECT EFFECT=sb_nozzle_cooling
+
+[gcode_macro status_leveling]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_leveling
+	set_nozzle_leds_on
+
+[gcode_macro status_homing]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_homing
+	set_nozzle_leds_on
+
+[gcode_macro status_cleaning]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_cleaning
+	set_nozzle_leds_on
+
+[gcode_macro status_meshing]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_meshing
+	set_nozzle_leds_on
+
+[gcode_macro status_calibrating_z]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_calibrating_z
+	set_nozzle_leds_on
+
+[gcode_macro status_printing]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_printing
+	set_nozzle_leds_on
+
+[mcu]
+serial = /dev/ttyAMA0
+restart_method = command
+
+[printer]
+kinematics = corexy
+max_velocity = 300
+max_accel = 10000
+max_accel_to_decel = 5000
+max_z_velocity = 20
+max_z_accel = 350
+square_corner_velocity = 10.0
+
+[stepper_x]
+step_pin = PE11
+dir_pin = PE10
+enable_pin = !PE9
+rotation_distance = 40
+microsteps = 64
+full_steps_per_rotation = 200
+endstop_pin = ^PA1
+position_min = 0
+position_endstop = 350
+position_max = 350
+homing_speed = 150
+homing_retract_dist = 5
+homing_positive_dir = true
+
+[tmc2209 stepper_x]
+uart_pin = PE7
+interpolate = true
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 0
+
+[stepper_y]
+step_pin = PD8
+dir_pin = PB12
+enable_pin = !PD9
+rotation_distance = 40
+microsteps = 64
+full_steps_per_rotation = 200
+endstop_pin = ^PA2
+position_min = -5
+position_endstop = 350
+position_max = 355
+homing_speed = 150
+homing_retract_dist = 5
+homing_positive_dir = true
+
+[tmc2209 stepper_y]
+uart_pin = PE15
+interpolate = true
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 0
+
+[stepper_z]
+step_pin = PD14
+dir_pin = PD13
+enable_pin = !PD15
+rotation_distance = 40
+gear_ratio = 80:16
+microsteps = 64
+endstop_pin = ^PA0
+position_endstop = 0.2
+position_max = 310
+position_min = -5
+homing_speed = 8
+second_homing_speed = 3
+homing_retract_dist = 3
+
+[tmc2209 stepper_z]
+uart_pin = PD10
+interpolate = true
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 99999
+
+[stepper_z1]
+step_pin = PE6
+dir_pin = !PC13
+enable_pin = !PE5
+rotation_distance = 40
+gear_ratio = 80:16
+microsteps = 64
+
+[tmc2209 stepper_z1]
+uart_pin = PC14
+interpolate = true
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 99999
+
+[stepper_z2]
+step_pin = PE2
+dir_pin = PE4
+enable_pin = !PE3
+rotation_distance = 40
+gear_ratio = 80:16
+microsteps = 64
+
+[tmc2209 stepper_z2]
+uart_pin = PC15
+interpolate = true
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 99999
+
+[stepper_z3]
+step_pin = PD12
+dir_pin = !PC4
+enable_pin = !PE8
+rotation_distance = 40
+gear_ratio = 80:16
+microsteps = 64
+
+[tmc2209 stepper_z3]
+uart_pin = PA15
+interpolate = False
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 99999
+
+[extruder]
+step_pin = PD5
+dir_pin = !PD6
+enable_pin = !PD4
+rotation_distance = 21.6073707
+gear_ratio = 50:10
+microsteps = 16
+full_steps_per_rotation = 200
+nozzle_diameter = 0.400
+filament_diameter = 1.75
+heater_pin = PB15
+sensor_type = Generic 3950
+sensor_pin = PC0
+min_temp = 10
+max_temp = 270
+max_power = 1.0
+min_extrude_temp = 170
+pressure_advance = 0.04
+pressure_advance_smooth_time = 0.040
+control = pid
+pid_kp = 24.198
+pid_ki = 1.646
+pid_kd = 88.927
+
+[tmc2209 extruder]
+uart_pin = PD7
+interpolate = false
+run_current = 0.65
+sense_resistor = 0.110
+stealthchop_threshold = 150
+
+[heater_bed]
+heater_pin = PB4
+sensor_type = NTC 100K MGB18-104F39050L32
+sensor_pin = PB0
+max_power = 0.6
+min_temp = 0
+max_temp = 120
+control = pid
+pid_kp = 58.437
+pid_ki = 2.347
+pid_kd = 363.769
+
+[probe]
+pin = ^PB13
+x_offset = 0
+y_offset = 19.75
+z_offset = 3.42
+speed = 5
+samples = 3
+samples_result = median
+sample_retract_dist = 2.0
+samples_tolerance = 0.01
+samples_tolerance_retries = 5
+
+[heater_fan hotend_fan]
+pin = PA13
+max_power = 1.0
+heater = extruder
+heater_temp = 50.0
+
+[fan]
+pin = PA14
+max_power = 1.0
+off_below = 0.10
+
+[heater_fan controller_fan]
+pin = PB2
+heater = heater_bed
+heater_temp = 45.0
+
+[heater_fan nevermore]
+pin = PC8
+max_power = 1.0
+shutdown_speed = 0.0
+kick_start_time = 0.5
+heater = heater_bed
+heater_temp = 60
+
+[temperature_fan chamber]
+pin = PB3
+max_power = 1.0
+shutdown_speed = 0.0
+kick_start_time = 5.0
+off_below = 0.1
+sensor_type = EPCOS 100K B57560G104F
+sensor_pin = PC1
+min_temp = 0
+max_temp = 65
+target_temp = 60.0
+control = watermark
+gcode_id = C
+
+[temperature_sensor raspberry_pi]
+sensor_type = temperature_host
+max_temp = 100
+
+[temperature_sensor mcu_temp]
+sensor_type = temperature_mcu
+max_temp = 100
+
+[idle_timeout]
+timeout = 7200
+
+[quad_gantry_level]
+gantry_corners = 
+	-60,-10
+	410,420
+points = 
+	50,25
+	50,275
+	300,275
+	300,25
+speed = 200
+horizontal_move_z = 10
+retries = 4
+retry_tolerance = 0.0075
+max_adjust = 25
+
+[bed_mesh]
+speed = 200
+horizontal_move_z = 8
+mesh_min = 40, 40
+mesh_max = 310,310
+fade_start = 0.6
+fade_end = 10.0
+probe_count = 5,5
+algorithm = bicubic
+relative_reference_index = 12
+
+[mcu rpi]
+serial = /tmp/klipper_host_mcu
+
+[adxl345]
+cs_pin = rpi:None
+
+[resonance_tester]
+accel_chip = adxl345
+probe_points = 
+	175,175,20
+
+[display]
+lcd_type = uc1701
+cs_pin = PC11
+a0_pin = PD2
+rst_pin = PC10
+encoder_pins = ^PC6,^PC7
+click_pin = ^!PA8
+contrast = 63
+spi_software_mosi_pin = PA7
+spi_software_miso_pin = PA6
+spi_software_sclk_pin = PA5
+
+[neopixel fysetc_mini12864]
+pin = PC12
+chain_count = 3
+initial_red = 0.1
+initial_green = 0.5
+initial_blue = 0.0
+color_order = RGB
+
+[delayed_gcode setdisplayneopixel]
+initial_duration = 1
+gcode = 
+	SET_LED LED=fysetc_mini12864 RED=0 GREEN=1 BLUE=0 INDEX=1 TRANSMIT=0
+	SET_LED LED=fysetc_mini12864 RED=0 GREEN=0 BLUE=0 INDEX=2 TRANSMIT=0
+	SET_LED LED=fysetc_mini12864 RED=0 GREEN=1 BLUE=0 INDEX=3
+
+[input_shaper]
+shaper_type_x = mzv
+shaper_freq_x = 43.8
+shaper_type_y = mzv
+shaper_freq_y = 32.2
+=======================
+Extruder max_extrude_ratio=0.266081
+mcu 'mcu': Starting serial connect
+webhooks client 1971071456: New connection
+webhooks client 1971071456: Client info {'program': 'Moonraker', 'version': 'v0.7.1-597-gd37f91c'}
+Starting Klippy...
+Args: ['/home/pi/klipper/klippy/klippy.py', '/home/pi/klipper_config/printer.cfg', '-l', '/home/pi/klipper_logs/klippy.log', '-a', '/tmp/klippy_uds']
+Git version: 'v0.10.0-515-g24a1b50e'
+CPU: 4 core ARMv7 Processor rev 4 (v7l)
+Python: '2.7.18 (default, Jul 14 2021, 08:11:37) \n[GCC 10.2.1 20210110]'
+Start printer at Mon Oct 31 00:36:02 2022 (1667205362.6 13.6)
+===== Config file =====
+[virtual_sdcard]
+path = /home/pi/gcode_files
+
+[pause_resume]
+recover_velocity = 50.0
+
+[display_status]
+
+[gcode_macro CANCEL_PRINT]
+description = Cancel the actual running print
+rename_existing = CANCEL_PRINT_BASE
+gcode = 
+	TURN_OFF_HEATERS
+	CANCEL_PRINT_BASE
+
+[gcode_macro PAUSE]
+description = Pause the actual running print
+rename_existing = PAUSE_BASE
+variable_extrude = 1.0
+gcode = 
+	{% set E = printer["gcode_macro PAUSE"].extrude|float %}
+	{% set x_park = printer.toolhead.axis_maximum.x|float - 5.0 %}
+	{% set y_park = printer.toolhead.axis_maximum.y|float - 5.0 %}
+	{% set max_z = printer.toolhead.axis_maximum.z|float %}
+	{% set act_z = printer.toolhead.position.z|float %}
+	{% if act_z < (max_z - 2.0) %}
+	{% set z_safe = 2.0 %}
+	{% else %}
+	{% set z_safe = max_z - act_z %}
+	{% endif %}
+	PAUSE_BASE
+	G91
+	{% if printer.extruder.can_extrude|lower == 'true' %}
+	G1 E-{E} F2100
+	{% else %}
+	{action_respond_info("Extruder not hot enough")}
+	{% endif %}
+	{% if "xyz" in printer.toolhead.homed_axes %}
+	G1 Z{z_safe} F900
+	G90
+	G1 X{x_park} Y{y_park} F6000
+	{% else %}
+	{action_respond_info("Printer not homed")}
+	{% endif %}
+
+[gcode_macro RESUME]
+description = Resume the actual running print
+rename_existing = RESUME_BASE
+gcode = 
+	{% set E = printer["gcode_macro PAUSE"].extrude|float %}
+	{% if 'VELOCITY' in params|upper %}
+	{% set get_params = ('VELOCITY=' + params.VELOCITY)  %}
+	{%else %}
+	{% set get_params = "" %}
+	{% endif %}
+	{% if printer.extruder.can_extrude|lower == 'true' %}
+	G91
+	G1 E{E} F2100
+	{% else %}
+	{action_respond_info("Extruder not hot enough")}
+	{% endif %}
+	RESUME_BASE {get_params}
+
+[neopixel sb_leds]
+pin = PD3
+chain_count = 10
+color_order = GRB, GRB, GRB, GRB, GRB, GRB, GRB, GRB, GRBW,  GRBW
+initial_red = 1.0
+initial_green = 0.0
+initial_blue = 1.0
+initial_white = 0.0
+
+[led_effect sb_logo_busy]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (1,0,0)
+
+[led_effect sb_logo_cleaning]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.0, 0.02, 0.5)
+
+[led_effect sb_logo_calibrating_z]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.0, 0.0, 0.35)
+
+[led_effect sb_logo_heating]
+leds = 
+	neopixel:sb_leds (1,3,7,8,6,2)
+autostart = false
+frame_rate = 24
+layers = 
+	comet  0.3  0 add (1, 0.18, 0)
+
+[led_effect sb_logo_cooling]
+leds = 
+	neopixel:sb_leds (1,3,7,8,6,2)
+autostart = false
+frame_rate = 24
+layers = 
+	comet  0.3  0 add (0, 0, 1)
+
+[led_effect sb_logo_homing]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.0, 0.6, 0.2)
+
+[led_effect sb_logo_leveling]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.5, 0.1, 0.4)
+
+[led_effect sb_logo_meshing]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.2, 1.0, 0.0)
+
+[led_effect sb_logo_printing]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	gradient  0.3  1 add (0.3, 0.0, 0.0),(0.3, 0.3, 0.0),(0.3, 0.1, 0.0)
+
+[led_effect sb_logo_standby]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.01, 0.01, 0.01)
+
+[led_effect sb_logo_part_ready]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.0, 1.0, 0.0)
+
+[led_effect sb_nozzle_heating]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (9,10)
+layers = 
+	breathing  3 1 top (1.0, 0.18, 0.0, 0.0)
+
+[led_effect sb_nozzle_cooling]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (9,10)
+layers = 
+	breathing  3 1 top (0.0, 0.0, 1.0, 0.1)
+
+[led_effect sb_nozzle_standby]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (9,10)
+layers = 
+	breathing  3 1 top (0.6, 0.0, 0.0, 0.0)
+
+[led_effect sb_nozzle_part_ready]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (9,10)
+layers = 
+	breathing  3 1 top (0.6, 1.0, 0.0, 0.1)
+
+[led_effect sb_critical_error]
+leds = 
+	neopixel:sb_leds
+layers = 
+	strobe         1  1.5   add        (1.0,  1.0, 1.0)
+	breathing      2  0     difference (0.95, 0.0, 0.0)
+	static         1  0     top        (1.0,  0.0, 0.0)
+autostart = false
+frame_rate = 24
+run_on_error = true
+
+[led_effect rainbow]
+leds = 
+	neopixel:sb_leds
+autostart = true
+frame_rate = 24
+layers = 
+	gradient  0.3  1 add (0.3, 0.0, 0.0),(0.0, 0.3, 0.0),(0.0, 0.0, 0.3)
+
+[led_effect set_nozzle_leds]
+leds = 
+	neopixel:sb_leds (9,10)
+autostart = false
+frame_rate = 24
+layers = 
+	static         0  0     top        (0.0,  0.0, 0.0, 1.0)
+
+[led_effect set_logo_leds]
+leds = 
+	neopixel:sb_leds (1,2,3,4,5,6,7,8)
+autostart = false
+frame_rate = 24
+layers = 
+	static         0  0     top        (1.0,  1.0, 1.0)
+
+[gcode_macro set_logo_leds_off]
+gcode = 
+	SET_LED_EFFECT EFFECT=set_logo_leds STOP=1
+
+[gcode_macro set_logo_leds_on]
+gcode = 
+	SET_LED_EFFECT EFFECT=set_logo_leds
+
+[gcode_macro set_nozzle_leds_on]
+gcode = 
+	SET_LED_EFFECT EFFECT=set_nozzle_leds
+
+[gcode_macro set_nozzle_leds_off]
+gcode = 
+	SET_LED_EFFECT EFFECT=set_nozzle_leds STOP=1
+
+[gcode_macro status_off]
+gcode = 
+	STOP_LED_EFFECTS
+
+[gcode_macro status_ready]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=rainbow
+
+[gcode_macro status_part_ready]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_nozzle_part_ready
+	SET_LED_EFFECT EFFECT=sb_logo_part_ready
+
+[gcode_macro status_busy]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_busy
+	set_nozzle_leds_on
+
+[gcode_macro status_heating]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_heating
+	SET_LED_EFFECT EFFECT=sb_nozzle_heating
+
+[gcode_macro status_cooling]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_cooling
+	SET_LED_EFFECT EFFECT=sb_nozzle_cooling
+
+[gcode_macro status_leveling]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_leveling
+	set_nozzle_leds_on
+
+[gcode_macro status_homing]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_homing
+	set_nozzle_leds_on
+
+[gcode_macro status_cleaning]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_cleaning
+	set_nozzle_leds_on
+
+[gcode_macro status_meshing]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_meshing
+	set_nozzle_leds_on
+
+[gcode_macro status_calibrating_z]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_calibrating_z
+	set_nozzle_leds_on
+
+[gcode_macro status_printing]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_printing
+	set_nozzle_leds_on
+
+[mcu]
+serial = /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00
+
+[printer]
+kinematics = corexy
+max_velocity = 300
+max_accel = 10000
+max_accel_to_decel = 5000
+max_z_velocity = 20
+max_z_accel = 350
+square_corner_velocity = 10.0
+
+[stepper_x]
+step_pin = PE11
+dir_pin = PE10
+enable_pin = !PE9
+rotation_distance = 40
+microsteps = 64
+full_steps_per_rotation = 200
+endstop_pin = ^PA1
+position_min = 0
+position_endstop = 350
+position_max = 350
+homing_speed = 150
+homing_retract_dist = 5
+homing_positive_dir = true
+
+[tmc2209 stepper_x]
+uart_pin = PE7
+interpolate = true
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 0
+
+[stepper_y]
+step_pin = PD8
+dir_pin = PB12
+enable_pin = !PD9
+rotation_distance = 40
+microsteps = 64
+full_steps_per_rotation = 200
+endstop_pin = ^PA2
+position_min = -5
+position_endstop = 350
+position_max = 355
+homing_speed = 150
+homing_retract_dist = 5
+homing_positive_dir = true
+
+[tmc2209 stepper_y]
+uart_pin = PE15
+interpolate = true
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 0
+
+[stepper_z]
+step_pin = PD14
+dir_pin = PD13
+enable_pin = !PD15
+rotation_distance = 40
+gear_ratio = 80:16
+microsteps = 64
+endstop_pin = ^PA0
+position_endstop = 0.2
+position_max = 310
+position_min = -5
+homing_speed = 8
+second_homing_speed = 3
+homing_retract_dist = 3
+
+[tmc2209 stepper_z]
+uart_pin = PD10
+interpolate = true
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 99999
+
+[stepper_z1]
+step_pin = PE6
+dir_pin = !PC13
+enable_pin = !PE5
+rotation_distance = 40
+gear_ratio = 80:16
+microsteps = 64
+
+[tmc2209 stepper_z1]
+uart_pin = PC14
+interpolate = true
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 99999
+
+[stepper_z2]
+step_pin = PE2
+dir_pin = PE4
+enable_pin = !PE3
+rotation_distance = 40
+gear_ratio = 80:16
+microsteps = 64
+
+[tmc2209 stepper_z2]
+uart_pin = PC15
+interpolate = true
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 99999
+
+[stepper_z3]
+step_pin = PD12
+dir_pin = !PC4
+enable_pin = !PE8
+rotation_distance = 40
+gear_ratio = 80:16
+microsteps = 64
+
+[tmc2209 stepper_z3]
+uart_pin = PA15
+interpolate = False
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 99999
+
+[extruder]
+step_pin = PD5
+dir_pin = !PD6
+enable_pin = !PD4
+rotation_distance = 21.6073707
+gear_ratio = 50:10
+microsteps = 16
+full_steps_per_rotation = 200
+nozzle_diameter = 0.400
+filament_diameter = 1.75
+heater_pin = PB15
+sensor_type = Generic 3950
+sensor_pin = PC0
+min_temp = 10
+max_temp = 270
+max_power = 1.0
+min_extrude_temp = 170
+pressure_advance = 0.04
+pressure_advance_smooth_time = 0.040
+control = pid
+pid_kp = 24.198
+pid_ki = 1.646
+pid_kd = 88.927
+
+[tmc2209 extruder]
+uart_pin = PD7
+interpolate = false
+run_current = 0.65
+sense_resistor = 0.110
+stealthchop_threshold = 150
+
+[heater_bed]
+heater_pin = PB4
+sensor_type = NTC 100K MGB18-104F39050L32
+sensor_pin = PB0
+max_power = 0.6
+min_temp = 0
+max_temp = 120
+control = pid
+pid_kp = 58.437
+pid_ki = 2.347
+pid_kd = 363.769
+
+[probe]
+pin = ^PB13
+x_offset = 0
+y_offset = 19.75
+z_offset = 3.42
+speed = 5
+samples = 3
+samples_result = median
+sample_retract_dist = 2.0
+samples_tolerance = 0.01
+samples_tolerance_retries = 5
+
+[heater_fan hotend_fan]
+pin = PA13
+max_power = 1.0
+heater = extruder
+heater_temp = 50.0
+
+[fan]
+pin = PA14
+max_power = 1.0
+off_below = 0.10
+
+[heater_fan controller_fan]
+pin = PB2
+heater = heater_bed
+heater_temp = 45.0
+
+[heater_fan nevermore]
+pin = PC8
+max_power = 1.0
+shutdown_speed = 0.0
+kick_start_time = 0.5
+heater = heater_bed
+heater_temp = 60
+
+[temperature_fan chamber]
+pin = PB3
+max_power = 1.0
+shutdown_speed = 0.0
+kick_start_time = 5.0
+off_below = 0.1
+sensor_type = EPCOS 100K B57560G104F
+sensor_pin = PC1
+min_temp = 0
+max_temp = 65
+target_temp = 60.0
+control = watermark
+gcode_id = C
+
+[temperature_sensor raspberry_pi]
+sensor_type = temperature_host
+max_temp = 100
+
+[temperature_sensor mcu_temp]
+sensor_type = temperature_mcu
+max_temp = 100
+
+[idle_timeout]
+timeout = 7200
+
+[quad_gantry_level]
+gantry_corners = 
+	-60,-10
+	410,420
+points = 
+	50,25
+	50,275
+	300,275
+	300,25
+speed = 200
+horizontal_move_z = 10
+retries = 4
+retry_tolerance = 0.0075
+max_adjust = 25
+
+[bed_mesh]
+speed = 200
+horizontal_move_z = 8
+mesh_min = 40, 40
+mesh_max = 310,310
+fade_start = 0.6
+fade_end = 10.0
+probe_count = 5,5
+algorithm = bicubic
+relative_reference_index = 12
+
+[mcu rpi]
+serial = /tmp/klipper_host_mcu
+
+[adxl345]
+cs_pin = rpi:None
+
+[resonance_tester]
+accel_chip = adxl345
+probe_points = 
+	175,175,20
+
+[display]
+lcd_type = uc1701
+cs_pin = PC11
+a0_pin = PD2
+rst_pin = PC10
+encoder_pins = ^PC6,^PC7
+click_pin = ^!PA8
+contrast = 63
+spi_software_mosi_pin = PA7
+spi_software_miso_pin = PA6
+spi_software_sclk_pin = PA5
+
+[neopixel fysetc_mini12864]
+pin = PC12
+chain_count = 3
+initial_red = 0.1
+initial_green = 0.5
+initial_blue = 0.0
+color_order = RGB
+
+[delayed_gcode setdisplayneopixel]
+initial_duration = 1
+gcode = 
+	SET_LED LED=fysetc_mini12864 RED=0 GREEN=1 BLUE=0 INDEX=1 TRANSMIT=0
+	SET_LED LED=fysetc_mini12864 RED=0 GREEN=0 BLUE=0 INDEX=2 TRANSMIT=0
+	SET_LED LED=fysetc_mini12864 RED=0 GREEN=1 BLUE=0 INDEX=3
+
+[input_shaper]
+shaper_type_x = mzv
+shaper_freq_x = 43.8
+shaper_type_y = mzv
+shaper_freq_y = 32.2
+=======================
+Extruder max_extrude_ratio=0.266081
+mcu 'mcu': Starting serial connect
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+webhooks client 1971202448: New connection
+webhooks client 1971202448: Client info {'program': 'Moonraker', 'version': 'v0.7.1-747-g779997c'}
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+webhooks client 1971202448: Disconnected
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+webhooks client 1971616904: New connection
+webhooks client 1971616904: Client info {'program': 'Moonraker', 'version': 'v0.7.1-747-g779997c'}
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+MCU error during connect
+Traceback (most recent call last):
+  File "/home/pi/klipper/klippy/klippy.py", line 176, in _connect
+    self.send_event("klippy:mcu_identify")
+  File "/home/pi/klipper/klippy/klippy.py", line 264, in send_event
+    return [cb(*params) for cb in self.event_handlers.get(event, [])]
+  File "/home/pi/klipper/klippy/mcu.py", line 779, in _mcu_identify
+    raise error(str(e))
+error: mcu 'mcu': Unable to connect
+Build file /home/pi/klipper/klippy/../.config(2553): Mon Oct 31 00:11:23 2022
+========= Last MCU build config =========
+CONFIG_LOW_LEVEL_OPTIONS=y
+# CONFIG_MACH_AVR is not set
+# CONFIG_MACH_ATSAM is not set
+# CONFIG_MACH_ATSAMD is not set
+# CONFIG_MACH_LPC176X is not set
+CONFIG_MACH_STM32=y
+# CONFIG_MACH_RP2040 is not set
+# CONFIG_MACH_PRU is not set
+# CONFIG_MACH_LINUX is not set
+# CONFIG_MACH_SIMU is not set
+CONFIG_BOARD_DIRECTORY="stm32"
+CONFIG_MCU="stm32f446xx"
+CONFIG_CLOCK_FREQ=180000000
+CONFIG_SERIAL=y
+CONFIG_FLASH_START=0x8008000
+CONFIG_FLASH_SIZE=0x80000
+CONFIG_RAM_START=0x20000000
+CONFIG_RAM_SIZE=0x20000
+CONFIG_STACK_SIZE=512
+CONFIG_STM32_SELECT=y
+# CONFIG_MACH_STM32F103 is not set
+# CONFIG_MACH_STM32F207 is not set
+# CONFIG_MACH_STM32F401 is not set
+# CONFIG_MACH_STM32F405 is not set
+# CONFIG_MACH_STM32F407 is not set
+# CONFIG_MACH_STM32F429 is not set
+CONFIG_MACH_STM32F446=y
+# CONFIG_MACH_STM32F031 is not set
+# CONFIG_MACH_STM32F042 is not set
+# CONFIG_MACH_STM32F070 is not set
+# CONFIG_MACH_STM32F072 is not set
+# CONFIG_MACH_STM32G0B1 is not set
+# CONFIG_MACH_STM32H743 is not set
+# CONFIG_MACH_STM32H750 is not set
+CONFIG_MACH_STM32F4=y
+CONFIG_HAVE_STM32_USBOTG=y
+CONFIG_HAVE_STM32_CANBUS=y
+CONFIG_HAVE_STM32_USBCANBUS=y
+CONFIG_STM32_FLASH_START_8000=y
+# CONFIG_STM32_FLASH_START_10000 is not set
+# CONFIG_STM32_FLASH_START_0000 is not set
+# CONFIG_STM32_CLOCK_REF_8M is not set
+CONFIG_STM32_CLOCK_REF_12M=y
+# CONFIG_STM32_CLOCK_REF_16M is not set
+# CONFIG_STM32_CLOCK_REF_25M is not set
+# CONFIG_STM32_CLOCK_REF_INTERNAL is not set
+CONFIG_CLOCK_REF_FREQ=12000000
+CONFIG_STM32F0_TRIM=16
+# CONFIG_STM32_USB_PA11_PA12 is not set
+CONFIG_STM32_SERIAL_USART1=y
+# CONFIG_STM32_SERIAL_USART1_ALT_PB7_PB6 is not set
+# CONFIG_STM32_SERIAL_USART2 is not set
+# CONFIG_STM32_SERIAL_USART2_ALT_PD6_PD5 is not set
+# CONFIG_STM32_SERIAL_USART3 is not set
+# CONFIG_STM32_SERIAL_USART3_ALT_PD9_PD8 is not set
+# CONFIG_STM32_CANBUS_PA11_PA12 is not set
+# CONFIG_STM32_MMENU_CANBUS_PB8_PB9 is not set
+# CONFIG_STM32_MMENU_CANBUS_PI9_PH13 is not set
+# CONFIG_STM32_MMENU_CANBUS_PB5_PB6 is not set
+# CONFIG_STM32_MMENU_CANBUS_PB12_PB13 is not set
+# CONFIG_STM32_MMENU_CANBUS_PD0_PD1 is not set
+# CONFIG_STM32_USBCANBUS_PA11_PA12 is not set
+CONFIG_SERIAL_BAUD=250000
+CONFIG_USB_VENDOR_ID=0x1d50
+CONFIG_USB_DEVICE_ID=0x614e
+CONFIG_USB_SERIAL_NUMBER="12345"
+CONFIG_CANBUS_FREQUENCY=500000
+CONFIG_INITIAL_PINS=""
+CONFIG_HAVE_GPIO=y
+CONFIG_HAVE_GPIO_ADC=y
+CONFIG_HAVE_GPIO_SPI=y
+CONFIG_HAVE_GPIO_I2C=y
+CONFIG_HAVE_GPIO_HARD_PWM=y
+CONFIG_HAVE_GPIO_BITBANGING=y
+CONFIG_HAVE_STRICT_TIMING=y
+CONFIG_HAVE_CHIPID=y
+CONFIG_HAVE_STEPPER_BOTH_EDGE=y
+CONFIG_INLINE_STEPPER_HACK=y
+=======================
+No build file /home/pi/klipper/klippy/../out/klipper.dict
+No build file /home/pi/klipper/klippy/../out/klipper.elf
+Starting Klippy...
+Args: ['/home/pi/klipper/klippy/klippy.py', '/home/pi/klipper_config/printer.cfg', '-l', '/home/pi/klipper_logs/klippy.log', '-a', '/tmp/klippy_uds']
+Git version: 'v0.10.0-615-g96ea871b'
+CPU: 4 core ARMv7 Processor rev 4 (v7l)
+Python: '2.7.18 (default, Jul 14 2021, 08:11:37) \n[GCC 10.2.1 20210110]'
+Building C code module c_helper.so
+Start printer at Mon Oct 31 00:38:22 2022 (1667205502.2 140.8)
+===== Config file =====
+[virtual_sdcard]
+path = /home/pi/gcode_files
+
+[pause_resume]
+recover_velocity = 50.0
+
+[display_status]
+
+[gcode_macro CANCEL_PRINT]
+description = Cancel the actual running print
+rename_existing = CANCEL_PRINT_BASE
+gcode = 
+	TURN_OFF_HEATERS
+	CANCEL_PRINT_BASE
+
+[gcode_macro PAUSE]
+description = Pause the actual running print
+rename_existing = PAUSE_BASE
+variable_extrude = 1.0
+gcode = 
+	{% set E = printer["gcode_macro PAUSE"].extrude|float %}
+	{% set x_park = printer.toolhead.axis_maximum.x|float - 5.0 %}
+	{% set y_park = printer.toolhead.axis_maximum.y|float - 5.0 %}
+	{% set max_z = printer.toolhead.axis_maximum.z|float %}
+	{% set act_z = printer.toolhead.position.z|float %}
+	{% if act_z < (max_z - 2.0) %}
+	{% set z_safe = 2.0 %}
+	{% else %}
+	{% set z_safe = max_z - act_z %}
+	{% endif %}
+	PAUSE_BASE
+	G91
+	{% if printer.extruder.can_extrude|lower == 'true' %}
+	G1 E-{E} F2100
+	{% else %}
+	{action_respond_info("Extruder not hot enough")}
+	{% endif %}
+	{% if "xyz" in printer.toolhead.homed_axes %}
+	G1 Z{z_safe} F900
+	G90
+	G1 X{x_park} Y{y_park} F6000
+	{% else %}
+	{action_respond_info("Printer not homed")}
+	{% endif %}
+
+[gcode_macro RESUME]
+description = Resume the actual running print
+rename_existing = RESUME_BASE
+gcode = 
+	{% set E = printer["gcode_macro PAUSE"].extrude|float %}
+	{% if 'VELOCITY' in params|upper %}
+	{% set get_params = ('VELOCITY=' + params.VELOCITY)  %}
+	{%else %}
+	{% set get_params = "" %}
+	{% endif %}
+	{% if printer.extruder.can_extrude|lower == 'true' %}
+	G91
+	G1 E{E} F2100
+	{% else %}
+	{action_respond_info("Extruder not hot enough")}
+	{% endif %}
+	RESUME_BASE {get_params}
+
+[neopixel sb_leds]
+pin = PD3
+chain_count = 10
+color_order = GRB, GRB, GRB, GRB, GRB, GRB, GRB, GRB, GRBW,  GRBW
+initial_red = 1.0
+initial_green = 0.0
+initial_blue = 1.0
+initial_white = 0.0
+
+[led_effect sb_logo_busy]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (1,0,0)
+
+[led_effect sb_logo_cleaning]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.0, 0.02, 0.5)
+
+[led_effect sb_logo_calibrating_z]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.0, 0.0, 0.35)
+
+[led_effect sb_logo_heating]
+leds = 
+	neopixel:sb_leds (1,3,7,8,6,2)
+autostart = false
+frame_rate = 24
+layers = 
+	comet  0.3  0 add (1, 0.18, 0)
+
+[led_effect sb_logo_cooling]
+leds = 
+	neopixel:sb_leds (1,3,7,8,6,2)
+autostart = false
+frame_rate = 24
+layers = 
+	comet  0.3  0 add (0, 0, 1)
+
+[led_effect sb_logo_homing]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.0, 0.6, 0.2)
+
+[led_effect sb_logo_leveling]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.5, 0.1, 0.4)
+
+[led_effect sb_logo_meshing]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.2, 1.0, 0.0)
+
+[led_effect sb_logo_printing]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	gradient  0.3  1 add (0.3, 0.0, 0.0),(0.3, 0.3, 0.0),(0.3, 0.1, 0.0)
+
+[led_effect sb_logo_standby]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.01, 0.01, 0.01)
+
+[led_effect sb_logo_part_ready]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.0, 1.0, 0.0)
+
+[led_effect sb_nozzle_heating]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (9,10)
+layers = 
+	breathing  3 1 top (1.0, 0.18, 0.0, 0.0)
+
+[led_effect sb_nozzle_cooling]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (9,10)
+layers = 
+	breathing  3 1 top (0.0, 0.0, 1.0, 0.1)
+
+[led_effect sb_nozzle_standby]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (9,10)
+layers = 
+	breathing  3 1 top (0.6, 0.0, 0.0, 0.0)
+
+[led_effect sb_nozzle_part_ready]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (9,10)
+layers = 
+	breathing  3 1 top (0.6, 1.0, 0.0, 0.1)
+
+[led_effect sb_critical_error]
+leds = 
+	neopixel:sb_leds
+layers = 
+	strobe         1  1.5   add        (1.0,  1.0, 1.0)
+	breathing      2  0     difference (0.95, 0.0, 0.0)
+	static         1  0     top        (1.0,  0.0, 0.0)
+autostart = false
+frame_rate = 24
+run_on_error = true
+
+[led_effect rainbow]
+leds = 
+	neopixel:sb_leds
+autostart = true
+frame_rate = 24
+layers = 
+	gradient  0.3  1 add (0.3, 0.0, 0.0),(0.0, 0.3, 0.0),(0.0, 0.0, 0.3)
+
+[led_effect set_nozzle_leds]
+leds = 
+	neopixel:sb_leds (9,10)
+autostart = false
+frame_rate = 24
+layers = 
+	static         0  0     top        (0.0,  0.0, 0.0, 1.0)
+
+[led_effect set_logo_leds]
+leds = 
+	neopixel:sb_leds (1,2,3,4,5,6,7,8)
+autostart = false
+frame_rate = 24
+layers = 
+	static         0  0     top        (1.0,  1.0, 1.0)
+
+[gcode_macro set_logo_leds_off]
+gcode = 
+	SET_LED_EFFECT EFFECT=set_logo_leds STOP=1
+
+[gcode_macro set_logo_leds_on]
+gcode = 
+	SET_LED_EFFECT EFFECT=set_logo_leds
+
+[gcode_macro set_nozzle_leds_on]
+gcode = 
+	SET_LED_EFFECT EFFECT=set_nozzle_leds
+
+[gcode_macro set_nozzle_leds_off]
+gcode = 
+	SET_LED_EFFECT EFFECT=set_nozzle_leds STOP=1
+
+[gcode_macro status_off]
+gcode = 
+	STOP_LED_EFFECTS
+
+[gcode_macro status_ready]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=rainbow
+
+[gcode_macro status_part_ready]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_nozzle_part_ready
+	SET_LED_EFFECT EFFECT=sb_logo_part_ready
+
+[gcode_macro status_busy]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_busy
+	set_nozzle_leds_on
+
+[gcode_macro status_heating]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_heating
+	SET_LED_EFFECT EFFECT=sb_nozzle_heating
+
+[gcode_macro status_cooling]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_cooling
+	SET_LED_EFFECT EFFECT=sb_nozzle_cooling
+
+[gcode_macro status_leveling]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_leveling
+	set_nozzle_leds_on
+
+[gcode_macro status_homing]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_homing
+	set_nozzle_leds_on
+
+[gcode_macro status_cleaning]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_cleaning
+	set_nozzle_leds_on
+
+[gcode_macro status_meshing]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_meshing
+	set_nozzle_leds_on
+
+[gcode_macro status_calibrating_z]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_calibrating_z
+	set_nozzle_leds_on
+
+[gcode_macro status_printing]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_printing
+	set_nozzle_leds_on
+
+[mcu]
+serial = /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00
+
+[printer]
+kinematics = corexy
+max_velocity = 300
+max_accel = 10000
+max_accel_to_decel = 5000
+max_z_velocity = 20
+max_z_accel = 350
+square_corner_velocity = 10.0
+
+[stepper_x]
+step_pin = PE11
+dir_pin = PE10
+enable_pin = !PE9
+rotation_distance = 40
+microsteps = 64
+full_steps_per_rotation = 200
+endstop_pin = ^PA1
+position_min = 0
+position_endstop = 350
+position_max = 350
+homing_speed = 150
+homing_retract_dist = 5
+homing_positive_dir = true
+
+[tmc2209 stepper_x]
+uart_pin = PE7
+interpolate = true
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 0
+
+[stepper_y]
+step_pin = PD8
+dir_pin = PB12
+enable_pin = !PD9
+rotation_distance = 40
+microsteps = 64
+full_steps_per_rotation = 200
+endstop_pin = ^PA2
+position_min = -5
+position_endstop = 350
+position_max = 355
+homing_speed = 150
+homing_retract_dist = 5
+homing_positive_dir = true
+
+[tmc2209 stepper_y]
+uart_pin = PE15
+interpolate = true
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 0
+
+[stepper_z]
+step_pin = PD14
+dir_pin = PD13
+enable_pin = !PD15
+rotation_distance = 40
+gear_ratio = 80:16
+microsteps = 64
+endstop_pin = ^PA0
+position_endstop = 0.2
+position_max = 310
+position_min = -5
+homing_speed = 8
+second_homing_speed = 3
+homing_retract_dist = 3
+
+[tmc2209 stepper_z]
+uart_pin = PD10
+interpolate = true
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 99999
+
+[stepper_z1]
+step_pin = PE6
+dir_pin = !PC13
+enable_pin = !PE5
+rotation_distance = 40
+gear_ratio = 80:16
+microsteps = 64
+
+[tmc2209 stepper_z1]
+uart_pin = PC14
+interpolate = true
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 99999
+
+[stepper_z2]
+step_pin = PE2
+dir_pin = PE4
+enable_pin = !PE3
+rotation_distance = 40
+gear_ratio = 80:16
+microsteps = 64
+
+[tmc2209 stepper_z2]
+uart_pin = PC15
+interpolate = true
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 99999
+
+[stepper_z3]
+step_pin = PD12
+dir_pin = !PC4
+enable_pin = !PE8
+rotation_distance = 40
+gear_ratio = 80:16
+microsteps = 64
+
+[tmc2209 stepper_z3]
+uart_pin = PA15
+interpolate = False
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 99999
+
+[extruder]
+step_pin = PD5
+dir_pin = !PD6
+enable_pin = !PD4
+rotation_distance = 21.6073707
+gear_ratio = 50:10
+microsteps = 16
+full_steps_per_rotation = 200
+nozzle_diameter = 0.400
+filament_diameter = 1.75
+heater_pin = PB15
+sensor_type = Generic 3950
+sensor_pin = PC0
+min_temp = 10
+max_temp = 270
+max_power = 1.0
+min_extrude_temp = 170
+pressure_advance = 0.04
+pressure_advance_smooth_time = 0.040
+control = pid
+pid_kp = 24.198
+pid_ki = 1.646
+pid_kd = 88.927
+
+[tmc2209 extruder]
+uart_pin = PD7
+interpolate = false
+run_current = 0.65
+sense_resistor = 0.110
+stealthchop_threshold = 150
+
+[heater_bed]
+heater_pin = PB4
+sensor_type = NTC 100K MGB18-104F39050L32
+sensor_pin = PB0
+max_power = 0.6
+min_temp = 0
+max_temp = 120
+control = pid
+pid_kp = 58.437
+pid_ki = 2.347
+pid_kd = 363.769
+
+[probe]
+pin = ^PB13
+x_offset = 0
+y_offset = 19.75
+z_offset = 3.42
+speed = 5
+samples = 3
+samples_result = median
+sample_retract_dist = 2.0
+samples_tolerance = 0.01
+samples_tolerance_retries = 5
+
+[heater_fan hotend_fan]
+pin = PA13
+max_power = 1.0
+heater = extruder
+heater_temp = 50.0
+
+[fan]
+pin = PA14
+max_power = 1.0
+off_below = 0.10
+
+[heater_fan controller_fan]
+pin = PB2
+heater = heater_bed
+heater_temp = 45.0
+
+[heater_fan nevermore]
+pin = PC8
+max_power = 1.0
+shutdown_speed = 0.0
+kick_start_time = 0.5
+heater = heater_bed
+heater_temp = 60
+
+[temperature_fan chamber]
+pin = PB3
+max_power = 1.0
+shutdown_speed = 0.0
+kick_start_time = 5.0
+off_below = 0.1
+sensor_type = EPCOS 100K B57560G104F
+sensor_pin = PC1
+min_temp = 0
+max_temp = 65
+target_temp = 60.0
+control = watermark
+gcode_id = C
+
+[temperature_sensor raspberry_pi]
+sensor_type = temperature_host
+max_temp = 100
+
+[temperature_sensor mcu_temp]
+sensor_type = temperature_mcu
+max_temp = 100
+
+[idle_timeout]
+timeout = 7200
+
+[quad_gantry_level]
+gantry_corners = 
+	-60,-10
+	410,420
+points = 
+	50,25
+	50,275
+	300,275
+	300,25
+speed = 200
+horizontal_move_z = 10
+retries = 4
+retry_tolerance = 0.0075
+max_adjust = 25
+
+[bed_mesh]
+speed = 200
+horizontal_move_z = 8
+mesh_min = 40, 40
+mesh_max = 310,310
+fade_start = 0.6
+fade_end = 10.0
+probe_count = 5,5
+algorithm = bicubic
+relative_reference_index = 12
+
+[mcu rpi]
+serial = /tmp/klipper_host_mcu
+
+[adxl345]
+cs_pin = rpi:None
+
+[resonance_tester]
+accel_chip = adxl345
+probe_points = 
+	175,175,20
+
+[display]
+lcd_type = uc1701
+cs_pin = PC11
+a0_pin = PD2
+rst_pin = PC10
+encoder_pins = ^PC6,^PC7
+click_pin = ^!PA8
+contrast = 63
+spi_software_mosi_pin = PA7
+spi_software_miso_pin = PA6
+spi_software_sclk_pin = PA5
+
+[neopixel fysetc_mini12864]
+pin = PC12
+chain_count = 3
+initial_red = 0.1
+initial_green = 0.5
+initial_blue = 0.0
+color_order = RGB
+
+[delayed_gcode setdisplayneopixel]
+initial_duration = 1
+gcode = 
+	SET_LED LED=fysetc_mini12864 RED=0 GREEN=1 BLUE=0 INDEX=1 TRANSMIT=0
+	SET_LED LED=fysetc_mini12864 RED=0 GREEN=0 BLUE=0 INDEX=2 TRANSMIT=0
+	SET_LED LED=fysetc_mini12864 RED=0 GREEN=1 BLUE=0 INDEX=3
+
+[input_shaper]
+shaper_type_x = mzv
+shaper_freq_x = 43.8
+shaper_type_y = mzv
+shaper_freq_y = 32.2
+=======================
+Extruder max_extrude_ratio=0.266081
+mcu 'mcu': Starting serial connect
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+webhooks client 1971486848: New connection
+webhooks client 1971486848: Client info {'program': 'Moonraker', 'version': 'v0.7.1-747-g779997c'}
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+MCU error during connect
+Traceback (most recent call last):
+  File "/home/pi/klipper/klippy/klippy.py", line 176, in _connect
+    self.send_event("klippy:mcu_identify")
+  File "/home/pi/klipper/klippy/klippy.py", line 263, in send_event
+    return [cb(*params) for cb in self.event_handlers.get(event, [])]
+  File "/home/pi/klipper/klippy/mcu.py", line 782, in _mcu_identify
+    raise error(str(e))
+error: mcu 'mcu': Unable to connect
+Build file /home/pi/klipper/klippy/../.config(2553): Mon Oct 31 00:11:23 2022
+========= Last MCU build config =========
+CONFIG_LOW_LEVEL_OPTIONS=y
+# CONFIG_MACH_AVR is not set
+# CONFIG_MACH_ATSAM is not set
+# CONFIG_MACH_ATSAMD is not set
+# CONFIG_MACH_LPC176X is not set
+CONFIG_MACH_STM32=y
+# CONFIG_MACH_RP2040 is not set
+# CONFIG_MACH_PRU is not set
+# CONFIG_MACH_LINUX is not set
+# CONFIG_MACH_SIMU is not set
+CONFIG_BOARD_DIRECTORY="stm32"
+CONFIG_MCU="stm32f446xx"
+CONFIG_CLOCK_FREQ=180000000
+CONFIG_SERIAL=y
+CONFIG_FLASH_START=0x8008000
+CONFIG_FLASH_SIZE=0x80000
+CONFIG_RAM_START=0x20000000
+CONFIG_RAM_SIZE=0x20000
+CONFIG_STACK_SIZE=512
+CONFIG_STM32_SELECT=y
+# CONFIG_MACH_STM32F103 is not set
+# CONFIG_MACH_STM32F207 is not set
+# CONFIG_MACH_STM32F401 is not set
+# CONFIG_MACH_STM32F405 is not set
+# CONFIG_MACH_STM32F407 is not set
+# CONFIG_MACH_STM32F429 is not set
+CONFIG_MACH_STM32F446=y
+# CONFIG_MACH_STM32F031 is not set
+# CONFIG_MACH_STM32F042 is not set
+# CONFIG_MACH_STM32F070 is not set
+# CONFIG_MACH_STM32F072 is not set
+# CONFIG_MACH_STM32G0B1 is not set
+# CONFIG_MACH_STM32H743 is not set
+# CONFIG_MACH_STM32H750 is not set
+CONFIG_MACH_STM32F4=y
+CONFIG_HAVE_STM32_USBOTG=y
+CONFIG_HAVE_STM32_CANBUS=y
+CONFIG_HAVE_STM32_USBCANBUS=y
+CONFIG_STM32_FLASH_START_8000=y
+# CONFIG_STM32_FLASH_START_10000 is not set
+# CONFIG_STM32_FLASH_START_0000 is not set
+# CONFIG_STM32_CLOCK_REF_8M is not set
+CONFIG_STM32_CLOCK_REF_12M=y
+# CONFIG_STM32_CLOCK_REF_16M is not set
+# CONFIG_STM32_CLOCK_REF_25M is not set
+# CONFIG_STM32_CLOCK_REF_INTERNAL is not set
+CONFIG_CLOCK_REF_FREQ=12000000
+CONFIG_STM32F0_TRIM=16
+# CONFIG_STM32_USB_PA11_PA12 is not set
+CONFIG_STM32_SERIAL_USART1=y
+# CONFIG_STM32_SERIAL_USART1_ALT_PB7_PB6 is not set
+# CONFIG_STM32_SERIAL_USART2 is not set
+# CONFIG_STM32_SERIAL_USART2_ALT_PD6_PD5 is not set
+# CONFIG_STM32_SERIAL_USART3 is not set
+# CONFIG_STM32_SERIAL_USART3_ALT_PD9_PD8 is not set
+# CONFIG_STM32_CANBUS_PA11_PA12 is not set
+# CONFIG_STM32_MMENU_CANBUS_PB8_PB9 is not set
+# CONFIG_STM32_MMENU_CANBUS_PI9_PH13 is not set
+# CONFIG_STM32_MMENU_CANBUS_PB5_PB6 is not set
+# CONFIG_STM32_MMENU_CANBUS_PB12_PB13 is not set
+# CONFIG_STM32_MMENU_CANBUS_PD0_PD1 is not set
+# CONFIG_STM32_USBCANBUS_PA11_PA12 is not set
+CONFIG_SERIAL_BAUD=250000
+CONFIG_USB_VENDOR_ID=0x1d50
+CONFIG_USB_DEVICE_ID=0x614e
+CONFIG_USB_SERIAL_NUMBER="12345"
+CONFIG_CANBUS_FREQUENCY=500000
+CONFIG_INITIAL_PINS=""
+CONFIG_HAVE_GPIO=y
+CONFIG_HAVE_GPIO_ADC=y
+CONFIG_HAVE_GPIO_SPI=y
+CONFIG_HAVE_GPIO_I2C=y
+CONFIG_HAVE_GPIO_HARD_PWM=y
+CONFIG_HAVE_GPIO_BITBANGING=y
+CONFIG_HAVE_STRICT_TIMING=y
+CONFIG_HAVE_CHIPID=y
+CONFIG_HAVE_STEPPER_BOTH_EDGE=y
+CONFIG_INLINE_STEPPER_HACK=y
+=======================
+No build file /home/pi/klipper/klippy/../out/klipper.dict
+No build file /home/pi/klipper/klippy/../out/klipper.elf
+Starting Klippy...
+Args: ['/home/pi/klipper/klippy/klippy.py', '/home/pi/klipper_config/printer.cfg', '-l', '/home/pi/klipper_logs/klippy.log', '-a', '/tmp/klippy_uds']
+Git version: 'v0.10.0-615-g96ea871b'
+CPU: 4 core ARMv7 Processor rev 4 (v7l)
+Python: '2.7.18 (default, Jul 14 2021, 08:11:37) \n[GCC 10.2.1 20210110]'
+Start printer at Mon Oct 31 00:50:39 2022 (1667206239.7 13.6)
+===== Config file =====
+[virtual_sdcard]
+path = /home/pi/gcode_files
+
+[pause_resume]
+recover_velocity = 50.0
+
+[display_status]
+
+[gcode_macro CANCEL_PRINT]
+description = Cancel the actual running print
+rename_existing = CANCEL_PRINT_BASE
+gcode = 
+	TURN_OFF_HEATERS
+	CANCEL_PRINT_BASE
+
+[gcode_macro PAUSE]
+description = Pause the actual running print
+rename_existing = PAUSE_BASE
+variable_extrude = 1.0
+gcode = 
+	{% set E = printer["gcode_macro PAUSE"].extrude|float %}
+	{% set x_park = printer.toolhead.axis_maximum.x|float - 5.0 %}
+	{% set y_park = printer.toolhead.axis_maximum.y|float - 5.0 %}
+	{% set max_z = printer.toolhead.axis_maximum.z|float %}
+	{% set act_z = printer.toolhead.position.z|float %}
+	{% if act_z < (max_z - 2.0) %}
+	{% set z_safe = 2.0 %}
+	{% else %}
+	{% set z_safe = max_z - act_z %}
+	{% endif %}
+	PAUSE_BASE
+	G91
+	{% if printer.extruder.can_extrude|lower == 'true' %}
+	G1 E-{E} F2100
+	{% else %}
+	{action_respond_info("Extruder not hot enough")}
+	{% endif %}
+	{% if "xyz" in printer.toolhead.homed_axes %}
+	G1 Z{z_safe} F900
+	G90
+	G1 X{x_park} Y{y_park} F6000
+	{% else %}
+	{action_respond_info("Printer not homed")}
+	{% endif %}
+
+[gcode_macro RESUME]
+description = Resume the actual running print
+rename_existing = RESUME_BASE
+gcode = 
+	{% set E = printer["gcode_macro PAUSE"].extrude|float %}
+	{% if 'VELOCITY' in params|upper %}
+	{% set get_params = ('VELOCITY=' + params.VELOCITY)  %}
+	{%else %}
+	{% set get_params = "" %}
+	{% endif %}
+	{% if printer.extruder.can_extrude|lower == 'true' %}
+	G91
+	G1 E{E} F2100
+	{% else %}
+	{action_respond_info("Extruder not hot enough")}
+	{% endif %}
+	RESUME_BASE {get_params}
+
+[neopixel sb_leds]
+pin = PD3
+chain_count = 10
+color_order = GRB, GRB, GRB, GRB, GRB, GRB, GRB, GRB, GRBW,  GRBW
+initial_red = 1.0
+initial_green = 0.0
+initial_blue = 1.0
+initial_white = 0.0
+
+[led_effect sb_logo_busy]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (1,0,0)
+
+[led_effect sb_logo_cleaning]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.0, 0.02, 0.5)
+
+[led_effect sb_logo_calibrating_z]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.0, 0.0, 0.35)
+
+[led_effect sb_logo_heating]
+leds = 
+	neopixel:sb_leds (1,3,7,8,6,2)
+autostart = false
+frame_rate = 24
+layers = 
+	comet  0.3  0 add (1, 0.18, 0)
+
+[led_effect sb_logo_cooling]
+leds = 
+	neopixel:sb_leds (1,3,7,8,6,2)
+autostart = false
+frame_rate = 24
+layers = 
+	comet  0.3  0 add (0, 0, 1)
+
+[led_effect sb_logo_homing]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.0, 0.6, 0.2)
+
+[led_effect sb_logo_leveling]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.5, 0.1, 0.4)
+
+[led_effect sb_logo_meshing]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.2, 1.0, 0.0)
+
+[led_effect sb_logo_printing]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	gradient  0.3  1 add (0.3, 0.0, 0.0),(0.3, 0.3, 0.0),(0.3, 0.1, 0.0)
+
+[led_effect sb_logo_standby]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.01, 0.01, 0.01)
+
+[led_effect sb_logo_part_ready]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.0, 1.0, 0.0)
+
+[led_effect sb_nozzle_heating]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (9,10)
+layers = 
+	breathing  3 1 top (1.0, 0.18, 0.0, 0.0)
+
+[led_effect sb_nozzle_cooling]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (9,10)
+layers = 
+	breathing  3 1 top (0.0, 0.0, 1.0, 0.1)
+
+[led_effect sb_nozzle_standby]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (9,10)
+layers = 
+	breathing  3 1 top (0.6, 0.0, 0.0, 0.0)
+
+[led_effect sb_nozzle_part_ready]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (9,10)
+layers = 
+	breathing  3 1 top (0.6, 1.0, 0.0, 0.1)
+
+[led_effect sb_critical_error]
+leds = 
+	neopixel:sb_leds
+layers = 
+	strobe         1  1.5   add        (1.0,  1.0, 1.0)
+	breathing      2  0     difference (0.95, 0.0, 0.0)
+	static         1  0     top        (1.0,  0.0, 0.0)
+autostart = false
+frame_rate = 24
+run_on_error = true
+
+[led_effect rainbow]
+leds = 
+	neopixel:sb_leds
+autostart = true
+frame_rate = 24
+layers = 
+	gradient  0.3  1 add (0.3, 0.0, 0.0),(0.0, 0.3, 0.0),(0.0, 0.0, 0.3)
+
+[led_effect set_nozzle_leds]
+leds = 
+	neopixel:sb_leds (9,10)
+autostart = false
+frame_rate = 24
+layers = 
+	static         0  0     top        (0.0,  0.0, 0.0, 1.0)
+
+[led_effect set_logo_leds]
+leds = 
+	neopixel:sb_leds (1,2,3,4,5,6,7,8)
+autostart = false
+frame_rate = 24
+layers = 
+	static         0  0     top        (1.0,  1.0, 1.0)
+
+[gcode_macro set_logo_leds_off]
+gcode = 
+	SET_LED_EFFECT EFFECT=set_logo_leds STOP=1
+
+[gcode_macro set_logo_leds_on]
+gcode = 
+	SET_LED_EFFECT EFFECT=set_logo_leds
+
+[gcode_macro set_nozzle_leds_on]
+gcode = 
+	SET_LED_EFFECT EFFECT=set_nozzle_leds
+
+[gcode_macro set_nozzle_leds_off]
+gcode = 
+	SET_LED_EFFECT EFFECT=set_nozzle_leds STOP=1
+
+[gcode_macro status_off]
+gcode = 
+	STOP_LED_EFFECTS
+
+[gcode_macro status_ready]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=rainbow
+
+[gcode_macro status_part_ready]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_nozzle_part_ready
+	SET_LED_EFFECT EFFECT=sb_logo_part_ready
+
+[gcode_macro status_busy]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_busy
+	set_nozzle_leds_on
+
+[gcode_macro status_heating]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_heating
+	SET_LED_EFFECT EFFECT=sb_nozzle_heating
+
+[gcode_macro status_cooling]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_cooling
+	SET_LED_EFFECT EFFECT=sb_nozzle_cooling
+
+[gcode_macro status_leveling]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_leveling
+	set_nozzle_leds_on
+
+[gcode_macro status_homing]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_homing
+	set_nozzle_leds_on
+
+[gcode_macro status_cleaning]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_cleaning
+	set_nozzle_leds_on
+
+[gcode_macro status_meshing]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_meshing
+	set_nozzle_leds_on
+
+[gcode_macro status_calibrating_z]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_calibrating_z
+	set_nozzle_leds_on
+
+[gcode_macro status_printing]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_printing
+	set_nozzle_leds_on
+
+[mcu]
+serial = /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00
+
+[printer]
+kinematics = corexy
+max_velocity = 300
+max_accel = 10000
+max_accel_to_decel = 5000
+max_z_velocity = 20
+max_z_accel = 350
+square_corner_velocity = 10.0
+
+[stepper_x]
+step_pin = PE11
+dir_pin = PE10
+enable_pin = !PE9
+rotation_distance = 40
+microsteps = 64
+full_steps_per_rotation = 200
+endstop_pin = ^PA1
+position_min = 0
+position_endstop = 350
+position_max = 350
+homing_speed = 150
+homing_retract_dist = 5
+homing_positive_dir = true
+
+[tmc2209 stepper_x]
+uart_pin = PE7
+interpolate = true
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 0
+
+[stepper_y]
+step_pin = PD8
+dir_pin = PB12
+enable_pin = !PD9
+rotation_distance = 40
+microsteps = 64
+full_steps_per_rotation = 200
+endstop_pin = ^PA2
+position_min = -5
+position_endstop = 350
+position_max = 355
+homing_speed = 150
+homing_retract_dist = 5
+homing_positive_dir = true
+
+[tmc2209 stepper_y]
+uart_pin = PE15
+interpolate = true
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 0
+
+[stepper_z]
+step_pin = PD14
+dir_pin = PD13
+enable_pin = !PD15
+rotation_distance = 40
+gear_ratio = 80:16
+microsteps = 64
+endstop_pin = ^PA0
+position_endstop = 0.2
+position_max = 310
+position_min = -5
+homing_speed = 8
+second_homing_speed = 3
+homing_retract_dist = 3
+
+[tmc2209 stepper_z]
+uart_pin = PD10
+interpolate = true
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 99999
+
+[stepper_z1]
+step_pin = PE6
+dir_pin = !PC13
+enable_pin = !PE5
+rotation_distance = 40
+gear_ratio = 80:16
+microsteps = 64
+
+[tmc2209 stepper_z1]
+uart_pin = PC14
+interpolate = true
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 99999
+
+[stepper_z2]
+step_pin = PE2
+dir_pin = PE4
+enable_pin = !PE3
+rotation_distance = 40
+gear_ratio = 80:16
+microsteps = 64
+
+[tmc2209 stepper_z2]
+uart_pin = PC15
+interpolate = true
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 99999
+
+[stepper_z3]
+step_pin = PD12
+dir_pin = !PC4
+enable_pin = !PE8
+rotation_distance = 40
+gear_ratio = 80:16
+microsteps = 64
+
+[tmc2209 stepper_z3]
+uart_pin = PA15
+interpolate = False
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 99999
+
+[extruder]
+step_pin = PD5
+dir_pin = !PD6
+enable_pin = !PD4
+rotation_distance = 21.6073707
+gear_ratio = 50:10
+microsteps = 16
+full_steps_per_rotation = 200
+nozzle_diameter = 0.400
+filament_diameter = 1.75
+heater_pin = PB15
+sensor_type = Generic 3950
+sensor_pin = PC0
+min_temp = 10
+max_temp = 270
+max_power = 1.0
+min_extrude_temp = 170
+pressure_advance = 0.04
+pressure_advance_smooth_time = 0.040
+control = pid
+pid_kp = 24.198
+pid_ki = 1.646
+pid_kd = 88.927
+
+[tmc2209 extruder]
+uart_pin = PD7
+interpolate = false
+run_current = 0.65
+sense_resistor = 0.110
+stealthchop_threshold = 150
+
+[heater_bed]
+heater_pin = PB4
+sensor_type = NTC 100K MGB18-104F39050L32
+sensor_pin = PB0
+max_power = 0.6
+min_temp = 0
+max_temp = 120
+control = pid
+pid_kp = 58.437
+pid_ki = 2.347
+pid_kd = 363.769
+
+[probe]
+pin = ^PB13
+x_offset = 0
+y_offset = 19.75
+z_offset = 3.42
+speed = 5
+samples = 3
+samples_result = median
+sample_retract_dist = 2.0
+samples_tolerance = 0.01
+samples_tolerance_retries = 5
+
+[heater_fan hotend_fan]
+pin = PA13
+max_power = 1.0
+heater = extruder
+heater_temp = 50.0
+
+[fan]
+pin = PA14
+max_power = 1.0
+off_below = 0.10
+
+[heater_fan controller_fan]
+pin = PB2
+heater = heater_bed
+heater_temp = 45.0
+
+[heater_fan nevermore]
+pin = PC8
+max_power = 1.0
+shutdown_speed = 0.0
+kick_start_time = 0.5
+heater = heater_bed
+heater_temp = 60
+
+[temperature_fan chamber]
+pin = PB3
+max_power = 1.0
+shutdown_speed = 0.0
+kick_start_time = 5.0
+off_below = 0.1
+sensor_type = EPCOS 100K B57560G104F
+sensor_pin = PC1
+min_temp = 0
+max_temp = 65
+target_temp = 60.0
+control = watermark
+gcode_id = C
+
+[temperature_sensor raspberry_pi]
+sensor_type = temperature_host
+max_temp = 100
+
+[temperature_sensor mcu_temp]
+sensor_type = temperature_mcu
+max_temp = 100
+
+[idle_timeout]
+timeout = 7200
+
+[quad_gantry_level]
+gantry_corners = 
+	-60,-10
+	410,420
+points = 
+	50,25
+	50,275
+	300,275
+	300,25
+speed = 200
+horizontal_move_z = 10
+retries = 4
+retry_tolerance = 0.0075
+max_adjust = 25
+
+[bed_mesh]
+speed = 200
+horizontal_move_z = 8
+mesh_min = 40, 40
+mesh_max = 310,310
+fade_start = 0.6
+fade_end = 10.0
+probe_count = 5,5
+algorithm = bicubic
+relative_reference_index = 12
+
+[mcu rpi]
+serial = /tmp/klipper_host_mcu
+
+[adxl345]
+cs_pin = rpi:None
+
+[resonance_tester]
+accel_chip = adxl345
+probe_points = 
+	175,175,20
+
+[display]
+lcd_type = uc1701
+cs_pin = PC11
+a0_pin = PD2
+rst_pin = PC10
+encoder_pins = ^PC6,^PC7
+click_pin = ^!PA8
+contrast = 63
+spi_software_mosi_pin = PA7
+spi_software_miso_pin = PA6
+spi_software_sclk_pin = PA5
+
+[neopixel fysetc_mini12864]
+pin = PC12
+chain_count = 3
+initial_red = 0.1
+initial_green = 0.5
+initial_blue = 0.0
+color_order = RGB
+
+[delayed_gcode setdisplayneopixel]
+initial_duration = 1
+gcode = 
+	SET_LED LED=fysetc_mini12864 RED=0 GREEN=1 BLUE=0 INDEX=1 TRANSMIT=0
+	SET_LED LED=fysetc_mini12864 RED=0 GREEN=0 BLUE=0 INDEX=2 TRANSMIT=0
+	SET_LED LED=fysetc_mini12864 RED=0 GREEN=1 BLUE=0 INDEX=3
+
+[input_shaper]
+shaper_type_x = mzv
+shaper_freq_x = 43.8
+shaper_type_y = mzv
+shaper_freq_y = 32.2
+=======================
+Extruder max_extrude_ratio=0.266081
+mcu 'mcu': Starting serial connect
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+webhooks client 1971367808: New connection
+webhooks client 1971367808: Client info {'program': 'Moonraker', 'version': 'v0.7.1-747-g779997c'}
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+MCU error during connect
+Traceback (most recent call last):
+  File "/home/pi/klipper/klippy/klippy.py", line 176, in _connect
+    self.send_event("klippy:mcu_identify")
+  File "/home/pi/klipper/klippy/klippy.py", line 263, in send_event
+    return [cb(*params) for cb in self.event_handlers.get(event, [])]
+  File "/home/pi/klipper/klippy/mcu.py", line 782, in _mcu_identify
+    raise error(str(e))
+error: mcu 'mcu': Unable to connect
+Build file /home/pi/klipper/klippy/../.config(2667): Mon Oct 31 00:49:30 2022
+========= Last MCU build config =========
+CONFIG_LOW_LEVEL_OPTIONS=y
+# CONFIG_MACH_AVR is not set
+# CONFIG_MACH_ATSAM is not set
+# CONFIG_MACH_ATSAMD is not set
+# CONFIG_MACH_LPC176X is not set
+CONFIG_MACH_STM32=y
+# CONFIG_MACH_RP2040 is not set
+# CONFIG_MACH_PRU is not set
+# CONFIG_MACH_LINUX is not set
+# CONFIG_MACH_SIMU is not set
+CONFIG_BOARD_DIRECTORY="stm32"
+CONFIG_MCU="stm32f446xx"
+CONFIG_CLOCK_FREQ=180000000
+CONFIG_SERIAL=y
+CONFIG_FLASH_START=0x8008000
+CONFIG_FLASH_SIZE=0x80000
+CONFIG_RAM_START=0x20000000
+CONFIG_RAM_SIZE=0x20000
+CONFIG_STACK_SIZE=512
+CONFIG_STM32_SELECT=y
+# CONFIG_MACH_STM32F103 is not set
+# CONFIG_MACH_STM32F207 is not set
+# CONFIG_MACH_STM32F401 is not set
+# CONFIG_MACH_STM32F405 is not set
+# CONFIG_MACH_STM32F407 is not set
+# CONFIG_MACH_STM32F429 is not set
+CONFIG_MACH_STM32F446=y
+# CONFIG_MACH_STM32F031 is not set
+# CONFIG_MACH_STM32F042 is not set
+# CONFIG_MACH_STM32F070 is not set
+# CONFIG_MACH_STM32F072 is not set
+# CONFIG_MACH_STM32G0B1 is not set
+# CONFIG_MACH_STM32H743 is not set
+# CONFIG_MACH_STM32H750 is not set
+# CONFIG_MACH_STM32L412 is not set
+CONFIG_MACH_STM32F4=y
+CONFIG_HAVE_STM32_USBOTG=y
+CONFIG_HAVE_STM32_CANBUS=y
+CONFIG_HAVE_STM32_USBCANBUS=y
+CONFIG_STM32_FLASH_START_8000=y
+# CONFIG_STM32_FLASH_START_10000 is not set
+# CONFIG_STM32_FLASH_START_0000 is not set
+# CONFIG_STM32_CLOCK_REF_8M is not set
+CONFIG_STM32_CLOCK_REF_12M=y
+# CONFIG_STM32_CLOCK_REF_16M is not set
+# CONFIG_STM32_CLOCK_REF_20M is not set
+# CONFIG_STM32_CLOCK_REF_25M is not set
+# CONFIG_STM32_CLOCK_REF_INTERNAL is not set
+CONFIG_CLOCK_REF_FREQ=12000000
+CONFIG_STM32F0_TRIM=16
+# CONFIG_STM32_USB_PA11_PA12 is not set
+CONFIG_STM32_SERIAL_USART1=y
+# CONFIG_STM32_SERIAL_USART1_ALT_PB7_PB6 is not set
+# CONFIG_STM32_SERIAL_USART2 is not set
+# CONFIG_STM32_SERIAL_USART2_ALT_PD6_PD5 is not set
+# CONFIG_STM32_SERIAL_USART3 is not set
+# CONFIG_STM32_SERIAL_USART3_ALT_PD9_PD8 is not set
+# CONFIG_STM32_CANBUS_PA11_PA12 is not set
+# CONFIG_STM32_MMENU_CANBUS_PB8_PB9 is not set
+# CONFIG_STM32_MMENU_CANBUS_PI9_PH13 is not set
+# CONFIG_STM32_MMENU_CANBUS_PB5_PB6 is not set
+# CONFIG_STM32_MMENU_CANBUS_PB12_PB13 is not set
+# CONFIG_STM32_MMENU_CANBUS_PD0_PD1 is not set
+# CONFIG_STM32_USBCANBUS_PA11_PA12 is not set
+CONFIG_SERIAL_BOOTLOADER_SIDECHANNEL=y
+CONFIG_SERIAL_BAUD=250000
+CONFIG_USB_VENDOR_ID=0x1d50
+CONFIG_USB_DEVICE_ID=0x614e
+CONFIG_USB_SERIAL_NUMBER="12345"
+CONFIG_CANBUS_FREQUENCY=500000
+CONFIG_INITIAL_PINS=""
+CONFIG_HAVE_GPIO=y
+CONFIG_HAVE_GPIO_ADC=y
+CONFIG_HAVE_GPIO_SPI=y
+CONFIG_HAVE_GPIO_I2C=y
+CONFIG_HAVE_GPIO_HARD_PWM=y
+CONFIG_HAVE_GPIO_BITBANGING=y
+CONFIG_HAVE_STRICT_TIMING=y
+CONFIG_HAVE_CHIPID=y
+CONFIG_HAVE_STEPPER_BOTH_EDGE=y
+CONFIG_INLINE_STEPPER_HACK=y
+=======================
+Build file /home/pi/klipper/klippy/../out/klipper.dict(7756): Mon Oct 31 00:50:07 2022
+Last MCU build version: v0.10.0-615-g96ea871b
+Last MCU build tools: gcc: (15:8-2019-q3-1+b1) 8.3.1 20190703 (release) [gcc-8-branch revision 273027] binutils: (2.34-4+rpi1+14) 2.34
+Last MCU build config: BUS_PINS_i2c1=PB6,PB7 RECEIVE_WINDOW=192 BUS_PINS_i2c3=PA8,PC9 BUS_PINS_i2c2=PB10,PB11 BUS_PINS_spi3a=PC11,PC12,PC10 RESERVE_PINS_serial=PA10,PA9 BUS_PINS_spi2a=PC2,PC3,PB10 BUS_PINS_i2c1a=PB8,PB9 RESERVE_PINS_crystal=PH0,PH1 STEPPER_BOTH_EDGE=1 SERIAL_BAUD=250000 ADC_MAX=4095 BUS_PINS_spi4=PE13,PE14,PE12 BUS_PINS_spi3=PB4,PB5,PB3 BUS_PINS_spi2=PB14,PB15,PB13 BUS_PINS_spi1=PA6,PA7,PA5 PWM_MAX=255 MCU=stm32f446xx STATS_SUMSQ_BASE=256 BUS_PINS_spi1a=PB4,PB5,PB3 CLOCK_FREQ=180000000
+Build file /home/pi/klipper/klippy/../out/klipper.elf(1196120): Mon Oct 31 00:50:20 2022
+Starting Klippy...
+Args: ['/home/pi/klipper/klippy/klippy.py', '/home/pi/klipper_config/printer.cfg', '-l', '/home/pi/klipper_logs/klippy.log', '-a', '/tmp/klippy_uds']
+Git version: 'v0.10.0-615-g96ea871b'
+CPU: 4 core ARMv7 Processor rev 4 (v7l)
+Python: '2.7.18 (default, Jul 14 2021, 08:11:37) \n[GCC 10.2.1 20210110]'
+Start printer at Mon Oct 31 00:53:02 2022 (1667206382.4 14.3)
+===== Config file =====
+[virtual_sdcard]
+path = /home/pi/gcode_files
+
+[pause_resume]
+recover_velocity = 50.0
+
+[display_status]
+
+[gcode_macro CANCEL_PRINT]
+description = Cancel the actual running print
+rename_existing = CANCEL_PRINT_BASE
+gcode = 
+	TURN_OFF_HEATERS
+	CANCEL_PRINT_BASE
+
+[gcode_macro PAUSE]
+description = Pause the actual running print
+rename_existing = PAUSE_BASE
+variable_extrude = 1.0
+gcode = 
+	{% set E = printer["gcode_macro PAUSE"].extrude|float %}
+	{% set x_park = printer.toolhead.axis_maximum.x|float - 5.0 %}
+	{% set y_park = printer.toolhead.axis_maximum.y|float - 5.0 %}
+	{% set max_z = printer.toolhead.axis_maximum.z|float %}
+	{% set act_z = printer.toolhead.position.z|float %}
+	{% if act_z < (max_z - 2.0) %}
+	{% set z_safe = 2.0 %}
+	{% else %}
+	{% set z_safe = max_z - act_z %}
+	{% endif %}
+	PAUSE_BASE
+	G91
+	{% if printer.extruder.can_extrude|lower == 'true' %}
+	G1 E-{E} F2100
+	{% else %}
+	{action_respond_info("Extruder not hot enough")}
+	{% endif %}
+	{% if "xyz" in printer.toolhead.homed_axes %}
+	G1 Z{z_safe} F900
+	G90
+	G1 X{x_park} Y{y_park} F6000
+	{% else %}
+	{action_respond_info("Printer not homed")}
+	{% endif %}
+
+[gcode_macro RESUME]
+description = Resume the actual running print
+rename_existing = RESUME_BASE
+gcode = 
+	{% set E = printer["gcode_macro PAUSE"].extrude|float %}
+	{% if 'VELOCITY' in params|upper %}
+	{% set get_params = ('VELOCITY=' + params.VELOCITY)  %}
+	{%else %}
+	{% set get_params = "" %}
+	{% endif %}
+	{% if printer.extruder.can_extrude|lower == 'true' %}
+	G91
+	G1 E{E} F2100
+	{% else %}
+	{action_respond_info("Extruder not hot enough")}
+	{% endif %}
+	RESUME_BASE {get_params}
+
+[neopixel sb_leds]
+pin = PD3
+chain_count = 10
+color_order = GRB, GRB, GRB, GRB, GRB, GRB, GRB, GRB, GRBW,  GRBW
+initial_red = 1.0
+initial_green = 0.0
+initial_blue = 1.0
+initial_white = 0.0
+
+[led_effect sb_logo_busy]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (1,0,0)
+
+[led_effect sb_logo_cleaning]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.0, 0.02, 0.5)
+
+[led_effect sb_logo_calibrating_z]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.0, 0.0, 0.35)
+
+[led_effect sb_logo_heating]
+leds = 
+	neopixel:sb_leds (1,3,7,8,6,2)
+autostart = false
+frame_rate = 24
+layers = 
+	comet  0.3  0 add (1, 0.18, 0)
+
+[led_effect sb_logo_cooling]
+leds = 
+	neopixel:sb_leds (1,3,7,8,6,2)
+autostart = false
+frame_rate = 24
+layers = 
+	comet  0.3  0 add (0, 0, 1)
+
+[led_effect sb_logo_homing]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.0, 0.6, 0.2)
+
+[led_effect sb_logo_leveling]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.5, 0.1, 0.4)
+
+[led_effect sb_logo_meshing]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.2, 1.0, 0.0)
+
+[led_effect sb_logo_printing]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	gradient  0.3  1 add (0.3, 0.0, 0.0),(0.3, 0.3, 0.0),(0.3, 0.1, 0.0)
+
+[led_effect sb_logo_standby]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.01, 0.01, 0.01)
+
+[led_effect sb_logo_part_ready]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.0, 1.0, 0.0)
+
+[led_effect sb_nozzle_heating]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (9,10)
+layers = 
+	breathing  3 1 top (1.0, 0.18, 0.0, 0.0)
+
+[led_effect sb_nozzle_cooling]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (9,10)
+layers = 
+	breathing  3 1 top (0.0, 0.0, 1.0, 0.1)
+
+[led_effect sb_nozzle_standby]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (9,10)
+layers = 
+	breathing  3 1 top (0.6, 0.0, 0.0, 0.0)
+
+[led_effect sb_nozzle_part_ready]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (9,10)
+layers = 
+	breathing  3 1 top (0.6, 1.0, 0.0, 0.1)
+
+[led_effect sb_critical_error]
+leds = 
+	neopixel:sb_leds
+layers = 
+	strobe         1  1.5   add        (1.0,  1.0, 1.0)
+	breathing      2  0     difference (0.95, 0.0, 0.0)
+	static         1  0     top        (1.0,  0.0, 0.0)
+autostart = false
+frame_rate = 24
+run_on_error = true
+
+[led_effect rainbow]
+leds = 
+	neopixel:sb_leds
+autostart = true
+frame_rate = 24
+layers = 
+	gradient  0.3  1 add (0.3, 0.0, 0.0),(0.0, 0.3, 0.0),(0.0, 0.0, 0.3)
+
+[led_effect set_nozzle_leds]
+leds = 
+	neopixel:sb_leds (9,10)
+autostart = false
+frame_rate = 24
+layers = 
+	static         0  0     top        (0.0,  0.0, 0.0, 1.0)
+
+[led_effect set_logo_leds]
+leds = 
+	neopixel:sb_leds (1,2,3,4,5,6,7,8)
+autostart = false
+frame_rate = 24
+layers = 
+	static         0  0     top        (1.0,  1.0, 1.0)
+
+[gcode_macro set_logo_leds_off]
+gcode = 
+	SET_LED_EFFECT EFFECT=set_logo_leds STOP=1
+
+[gcode_macro set_logo_leds_on]
+gcode = 
+	SET_LED_EFFECT EFFECT=set_logo_leds
+
+[gcode_macro set_nozzle_leds_on]
+gcode = 
+	SET_LED_EFFECT EFFECT=set_nozzle_leds
+
+[gcode_macro set_nozzle_leds_off]
+gcode = 
+	SET_LED_EFFECT EFFECT=set_nozzle_leds STOP=1
+
+[gcode_macro status_off]
+gcode = 
+	STOP_LED_EFFECTS
+
+[gcode_macro status_ready]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=rainbow
+
+[gcode_macro status_part_ready]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_nozzle_part_ready
+	SET_LED_EFFECT EFFECT=sb_logo_part_ready
+
+[gcode_macro status_busy]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_busy
+	set_nozzle_leds_on
+
+[gcode_macro status_heating]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_heating
+	SET_LED_EFFECT EFFECT=sb_nozzle_heating
+
+[gcode_macro status_cooling]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_cooling
+	SET_LED_EFFECT EFFECT=sb_nozzle_cooling
+
+[gcode_macro status_leveling]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_leveling
+	set_nozzle_leds_on
+
+[gcode_macro status_homing]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_homing
+	set_nozzle_leds_on
+
+[gcode_macro status_cleaning]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_cleaning
+	set_nozzle_leds_on
+
+[gcode_macro status_meshing]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_meshing
+	set_nozzle_leds_on
+
+[gcode_macro status_calibrating_z]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_calibrating_z
+	set_nozzle_leds_on
+
+[gcode_macro status_printing]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_printing
+	set_nozzle_leds_on
+
+[mcu]
+serial = /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00
+
+[printer]
+kinematics = corexy
+max_velocity = 300
+max_accel = 10000
+max_accel_to_decel = 5000
+max_z_velocity = 20
+max_z_accel = 350
+square_corner_velocity = 10.0
+
+[stepper_x]
+step_pin = PE11
+dir_pin = PE10
+enable_pin = !PE9
+rotation_distance = 40
+microsteps = 64
+full_steps_per_rotation = 200
+endstop_pin = ^PA1
+position_min = 0
+position_endstop = 350
+position_max = 350
+homing_speed = 150
+homing_retract_dist = 5
+homing_positive_dir = true
+
+[tmc2209 stepper_x]
+uart_pin = PE7
+interpolate = true
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 0
+
+[stepper_y]
+step_pin = PD8
+dir_pin = PB12
+enable_pin = !PD9
+rotation_distance = 40
+microsteps = 64
+full_steps_per_rotation = 200
+endstop_pin = ^PA2
+position_min = -5
+position_endstop = 350
+position_max = 355
+homing_speed = 150
+homing_retract_dist = 5
+homing_positive_dir = true
+
+[tmc2209 stepper_y]
+uart_pin = PE15
+interpolate = true
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 0
+
+[stepper_z]
+step_pin = PD14
+dir_pin = PD13
+enable_pin = !PD15
+rotation_distance = 40
+gear_ratio = 80:16
+microsteps = 64
+endstop_pin = ^PA0
+position_endstop = 0.2
+position_max = 310
+position_min = -5
+homing_speed = 8
+second_homing_speed = 3
+homing_retract_dist = 3
+
+[tmc2209 stepper_z]
+uart_pin = PD10
+interpolate = true
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 99999
+
+[stepper_z1]
+step_pin = PE6
+dir_pin = !PC13
+enable_pin = !PE5
+rotation_distance = 40
+gear_ratio = 80:16
+microsteps = 64
+
+[tmc2209 stepper_z1]
+uart_pin = PC14
+interpolate = true
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 99999
+
+[stepper_z2]
+step_pin = PE2
+dir_pin = PE4
+enable_pin = !PE3
+rotation_distance = 40
+gear_ratio = 80:16
+microsteps = 64
+
+[tmc2209 stepper_z2]
+uart_pin = PC15
+interpolate = true
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 99999
+
+[stepper_z3]
+step_pin = PD12
+dir_pin = !PC4
+enable_pin = !PE8
+rotation_distance = 40
+gear_ratio = 80:16
+microsteps = 64
+
+[tmc2209 stepper_z3]
+uart_pin = PA15
+interpolate = False
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 99999
+
+[extruder]
+step_pin = PD5
+dir_pin = !PD6
+enable_pin = !PD4
+rotation_distance = 21.6073707
+gear_ratio = 50:10
+microsteps = 16
+full_steps_per_rotation = 200
+nozzle_diameter = 0.400
+filament_diameter = 1.75
+heater_pin = PB15
+sensor_type = Generic 3950
+sensor_pin = PC0
+min_temp = 10
+max_temp = 270
+max_power = 1.0
+min_extrude_temp = 170
+pressure_advance = 0.04
+pressure_advance_smooth_time = 0.040
+control = pid
+pid_kp = 24.198
+pid_ki = 1.646
+pid_kd = 88.927
+
+[tmc2209 extruder]
+uart_pin = PD7
+interpolate = false
+run_current = 0.65
+sense_resistor = 0.110
+stealthchop_threshold = 150
+
+[heater_bed]
+heater_pin = PB4
+sensor_type = NTC 100K MGB18-104F39050L32
+sensor_pin = PB0
+max_power = 0.6
+min_temp = 0
+max_temp = 120
+control = pid
+pid_kp = 58.437
+pid_ki = 2.347
+pid_kd = 363.769
+
+[probe]
+pin = ^PB13
+x_offset = 0
+y_offset = 19.75
+z_offset = 3.42
+speed = 5
+samples = 3
+samples_result = median
+sample_retract_dist = 2.0
+samples_tolerance = 0.01
+samples_tolerance_retries = 5
+
+[heater_fan hotend_fan]
+pin = PA13
+max_power = 1.0
+heater = extruder
+heater_temp = 50.0
+
+[fan]
+pin = PA14
+max_power = 1.0
+off_below = 0.10
+
+[heater_fan controller_fan]
+pin = PB2
+heater = heater_bed
+heater_temp = 45.0
+
+[heater_fan nevermore]
+pin = PC8
+max_power = 1.0
+shutdown_speed = 0.0
+kick_start_time = 0.5
+heater = heater_bed
+heater_temp = 60
+
+[temperature_fan chamber]
+pin = PB3
+max_power = 1.0
+shutdown_speed = 0.0
+kick_start_time = 5.0
+off_below = 0.1
+sensor_type = EPCOS 100K B57560G104F
+sensor_pin = PC1
+min_temp = 0
+max_temp = 65
+target_temp = 60.0
+control = watermark
+gcode_id = C
+
+[temperature_sensor raspberry_pi]
+sensor_type = temperature_host
+max_temp = 100
+
+[temperature_sensor mcu_temp]
+sensor_type = temperature_mcu
+max_temp = 100
+
+[idle_timeout]
+timeout = 7200
+
+[quad_gantry_level]
+gantry_corners = 
+	-60,-10
+	410,420
+points = 
+	50,25
+	50,275
+	300,275
+	300,25
+speed = 200
+horizontal_move_z = 10
+retries = 4
+retry_tolerance = 0.0075
+max_adjust = 25
+
+[bed_mesh]
+speed = 200
+horizontal_move_z = 8
+mesh_min = 40, 40
+mesh_max = 310,310
+fade_start = 0.6
+fade_end = 10.0
+probe_count = 5,5
+algorithm = bicubic
+relative_reference_index = 12
+
+[mcu rpi]
+serial = /tmp/klipper_host_mcu
+
+[adxl345]
+cs_pin = rpi:None
+
+[resonance_tester]
+accel_chip = adxl345
+probe_points = 
+	175,175,20
+
+[display]
+lcd_type = uc1701
+cs_pin = PC11
+a0_pin = PD2
+rst_pin = PC10
+encoder_pins = ^PC6,^PC7
+click_pin = ^!PA8
+contrast = 63
+spi_software_mosi_pin = PA7
+spi_software_miso_pin = PA6
+spi_software_sclk_pin = PA5
+
+[neopixel fysetc_mini12864]
+pin = PC12
+chain_count = 3
+initial_red = 0.1
+initial_green = 0.5
+initial_blue = 0.0
+color_order = RGB
+
+[delayed_gcode setdisplayneopixel]
+initial_duration = 1
+gcode = 
+	SET_LED LED=fysetc_mini12864 RED=0 GREEN=1 BLUE=0 INDEX=1 TRANSMIT=0
+	SET_LED LED=fysetc_mini12864 RED=0 GREEN=0 BLUE=0 INDEX=2 TRANSMIT=0
+	SET_LED LED=fysetc_mini12864 RED=0 GREEN=1 BLUE=0 INDEX=3
+
+[input_shaper]
+shaper_type_x = mzv
+shaper_freq_x = 43.8
+shaper_type_y = mzv
+shaper_freq_y = 32.2
+=======================
+Extruder max_extrude_ratio=0.266081
+mcu 'mcu': Starting serial connect
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+webhooks client 1971649912: New connection
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+webhooks client 1971649912: Client info {'program': 'Moonraker', 'version': 'v0.7.1-747-g779997c'}
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+MCU error during connect
+Traceback (most recent call last):
+  File "/home/pi/klipper/klippy/klippy.py", line 176, in _connect
+    self.send_event("klippy:mcu_identify")
+  File "/home/pi/klipper/klippy/klippy.py", line 263, in send_event
+    return [cb(*params) for cb in self.event_handlers.get(event, [])]
+  File "/home/pi/klipper/klippy/mcu.py", line 782, in _mcu_identify
+    raise error(str(e))
+error: mcu 'mcu': Unable to connect
+Build file /home/pi/klipper/klippy/../.config(2724): Mon Oct 31 00:52:43 2022
+========= Last MCU build config =========
+CONFIG_LOW_LEVEL_OPTIONS=y
+# CONFIG_MACH_AVR is not set
+# CONFIG_MACH_ATSAM is not set
+# CONFIG_MACH_ATSAMD is not set
+# CONFIG_MACH_LPC176X is not set
+CONFIG_MACH_STM32=y
+# CONFIG_MACH_RP2040 is not set
+# CONFIG_MACH_PRU is not set
+# CONFIG_MACH_LINUX is not set
+# CONFIG_MACH_SIMU is not set
+CONFIG_BOARD_DIRECTORY="stm32"
+CONFIG_MCU="stm32f446xx"
+CONFIG_CLOCK_FREQ=180000000
+CONFIG_USBSERIAL=y
+CONFIG_FLASH_START=0x8008000
+CONFIG_FLASH_SIZE=0x80000
+CONFIG_RAM_START=0x20000000
+CONFIG_RAM_SIZE=0x20000
+CONFIG_STACK_SIZE=512
+CONFIG_STM32_SELECT=y
+# CONFIG_MACH_STM32F103 is not set
+# CONFIG_MACH_STM32F207 is not set
+# CONFIG_MACH_STM32F401 is not set
+# CONFIG_MACH_STM32F405 is not set
+# CONFIG_MACH_STM32F407 is not set
+# CONFIG_MACH_STM32F429 is not set
+CONFIG_MACH_STM32F446=y
+# CONFIG_MACH_STM32F031 is not set
+# CONFIG_MACH_STM32F042 is not set
+# CONFIG_MACH_STM32F070 is not set
+# CONFIG_MACH_STM32F072 is not set
+# CONFIG_MACH_STM32G0B1 is not set
+# CONFIG_MACH_STM32H743 is not set
+# CONFIG_MACH_STM32H750 is not set
+# CONFIG_MACH_STM32L412 is not set
+CONFIG_MACH_STM32F4=y
+CONFIG_HAVE_STM32_USBOTG=y
+CONFIG_HAVE_STM32_CANBUS=y
+CONFIG_HAVE_STM32_USBCANBUS=y
+CONFIG_STM32_FLASH_START_8000=y
+# CONFIG_STM32_FLASH_START_10000 is not set
+# CONFIG_STM32_FLASH_START_0000 is not set
+# CONFIG_STM32_CLOCK_REF_8M is not set
+CONFIG_STM32_CLOCK_REF_12M=y
+# CONFIG_STM32_CLOCK_REF_16M is not set
+# CONFIG_STM32_CLOCK_REF_20M is not set
+# CONFIG_STM32_CLOCK_REF_25M is not set
+# CONFIG_STM32_CLOCK_REF_INTERNAL is not set
+CONFIG_CLOCK_REF_FREQ=12000000
+CONFIG_STM32F0_TRIM=16
+CONFIG_STM32_USB_PA11_PA12=y
+# CONFIG_STM32_SERIAL_USART1 is not set
+# CONFIG_STM32_SERIAL_USART1_ALT_PB7_PB6 is not set
+# CONFIG_STM32_SERIAL_USART2 is not set
+# CONFIG_STM32_SERIAL_USART2_ALT_PD6_PD5 is not set
+# CONFIG_STM32_SERIAL_USART3 is not set
+# CONFIG_STM32_SERIAL_USART3_ALT_PD9_PD8 is not set
+# CONFIG_STM32_CANBUS_PA11_PA12 is not set
+# CONFIG_STM32_MMENU_CANBUS_PB8_PB9 is not set
+# CONFIG_STM32_MMENU_CANBUS_PI9_PH13 is not set
+# CONFIG_STM32_MMENU_CANBUS_PB5_PB6 is not set
+# CONFIG_STM32_MMENU_CANBUS_PB12_PB13 is not set
+# CONFIG_STM32_MMENU_CANBUS_PD0_PD1 is not set
+# CONFIG_STM32_USBCANBUS_PA11_PA12 is not set
+CONFIG_SERIAL_BOOTLOADER_SIDECHANNEL=y
+CONFIG_USB=y
+CONFIG_USB_VENDOR_ID=0x1d50
+CONFIG_USB_DEVICE_ID=0x614e
+CONFIG_USB_SERIAL_NUMBER_CHIPID=y
+CONFIG_USB_SERIAL_NUMBER="12345"
+
+#
+# USB ids
+#
+# end of USB ids
+
+CONFIG_CANBUS_FREQUENCY=500000
+CONFIG_INITIAL_PINS=""
+CONFIG_HAVE_GPIO=y
+CONFIG_HAVE_GPIO_ADC=y
+CONFIG_HAVE_GPIO_SPI=y
+CONFIG_HAVE_GPIO_I2C=y
+CONFIG_HAVE_GPIO_HARD_PWM=y
+CONFIG_HAVE_GPIO_BITBANGING=y
+CONFIG_HAVE_STRICT_TIMING=y
+CONFIG_HAVE_CHIPID=y
+CONFIG_HAVE_STEPPER_BOTH_EDGE=y
+CONFIG_INLINE_STEPPER_HACK=y
+=======================
+Build file /home/pi/klipper/klippy/../out/klipper.dict(7756): Mon Oct 31 00:50:07 2022
+Last MCU build version: v0.10.0-615-g96ea871b
+Last MCU build tools: gcc: (15:8-2019-q3-1+b1) 8.3.1 20190703 (release) [gcc-8-branch revision 273027] binutils: (2.34-4+rpi1+14) 2.34
+Last MCU build config: BUS_PINS_i2c1=PB6,PB7 RECEIVE_WINDOW=192 BUS_PINS_i2c3=PA8,PC9 BUS_PINS_i2c2=PB10,PB11 BUS_PINS_spi3a=PC11,PC12,PC10 RESERVE_PINS_serial=PA10,PA9 BUS_PINS_spi2a=PC2,PC3,PB10 BUS_PINS_i2c1a=PB8,PB9 RESERVE_PINS_crystal=PH0,PH1 STEPPER_BOTH_EDGE=1 SERIAL_BAUD=250000 ADC_MAX=4095 BUS_PINS_spi4=PE13,PE14,PE12 BUS_PINS_spi3=PB4,PB5,PB3 BUS_PINS_spi2=PB14,PB15,PB13 BUS_PINS_spi1=PA6,PA7,PA5 PWM_MAX=255 MCU=stm32f446xx STATS_SUMSQ_BASE=256 BUS_PINS_spi1a=PB4,PB5,PB3 CLOCK_FREQ=180000000
+Build file /home/pi/klipper/klippy/../out/klipper.elf(1196120): Mon Oct 31 00:50:20 2022
+webhooks client 1971649912: Disconnected
+webhooks client 1972090440: New connection
+webhooks client 1972090440: Client info {'program': 'Moonraker', 'version': 'v0.7.1-747-g779997c'}
+Attempting MCU 'mcu' reset
+Unhandled exception during post run
+Traceback (most recent call last):
+  File "/home/pi/klipper/klippy/klippy.py", line 234, in run
+    self.send_event("klippy:firmware_restart")
+  File "/home/pi/klipper/klippy/klippy.py", line 263, in send_event
+    return [cb(*params) for cb in self.event_handlers.get(event, [])]
+  File "/home/pi/klipper/klippy/mcu.py", line 931, in _firmware_restart
+    self._restart_arduino()
+  File "/home/pi/klipper/klippy/mcu.py", line 891, in _restart_arduino
+    serialhdl.arduino_reset(self._serialport, self._reactor)
+  File "/home/pi/klipper/klippy/serialhdl.py", line 377, in arduino_reset
+    ser = serial.Serial(serialport, 2400, timeout=0, exclusive=True)
+  File "/home/pi/klippy-env/lib/python2.7/site-packages/serial/serialutil.py", line 240, in __init__
+    self.open()
+  File "/home/pi/klippy-env/lib/python2.7/site-packages/serial/serialposix.py", line 268, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+SerialException: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+Restarting printer
+Start printer at Mon Oct 31 00:57:06 2022 (1667206626.6 245.8)
+===== Config file =====
+[virtual_sdcard]
+path = /home/pi/gcode_files
+
+[pause_resume]
+recover_velocity = 50.0
+
+[display_status]
+
+[gcode_macro CANCEL_PRINT]
+description = Cancel the actual running print
+rename_existing = CANCEL_PRINT_BASE
+gcode = 
+	TURN_OFF_HEATERS
+	CANCEL_PRINT_BASE
+
+[gcode_macro PAUSE]
+description = Pause the actual running print
+rename_existing = PAUSE_BASE
+variable_extrude = 1.0
+gcode = 
+	{% set E = printer["gcode_macro PAUSE"].extrude|float %}
+	{% set x_park = printer.toolhead.axis_maximum.x|float - 5.0 %}
+	{% set y_park = printer.toolhead.axis_maximum.y|float - 5.0 %}
+	{% set max_z = printer.toolhead.axis_maximum.z|float %}
+	{% set act_z = printer.toolhead.position.z|float %}
+	{% if act_z < (max_z - 2.0) %}
+	{% set z_safe = 2.0 %}
+	{% else %}
+	{% set z_safe = max_z - act_z %}
+	{% endif %}
+	PAUSE_BASE
+	G91
+	{% if printer.extruder.can_extrude|lower == 'true' %}
+	G1 E-{E} F2100
+	{% else %}
+	{action_respond_info("Extruder not hot enough")}
+	{% endif %}
+	{% if "xyz" in printer.toolhead.homed_axes %}
+	G1 Z{z_safe} F900
+	G90
+	G1 X{x_park} Y{y_park} F6000
+	{% else %}
+	{action_respond_info("Printer not homed")}
+	{% endif %}
+
+[gcode_macro RESUME]
+description = Resume the actual running print
+rename_existing = RESUME_BASE
+gcode = 
+	{% set E = printer["gcode_macro PAUSE"].extrude|float %}
+	{% if 'VELOCITY' in params|upper %}
+	{% set get_params = ('VELOCITY=' + params.VELOCITY)  %}
+	{%else %}
+	{% set get_params = "" %}
+	{% endif %}
+	{% if printer.extruder.can_extrude|lower == 'true' %}
+	G91
+	G1 E{E} F2100
+	{% else %}
+	{action_respond_info("Extruder not hot enough")}
+	{% endif %}
+	RESUME_BASE {get_params}
+
+[neopixel sb_leds]
+pin = PD3
+chain_count = 10
+color_order = GRB, GRB, GRB, GRB, GRB, GRB, GRB, GRB, GRBW,  GRBW
+initial_red = 1.0
+initial_green = 0.0
+initial_blue = 1.0
+initial_white = 0.0
+
+[led_effect sb_logo_busy]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (1,0,0)
+
+[led_effect sb_logo_cleaning]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.0, 0.02, 0.5)
+
+[led_effect sb_logo_calibrating_z]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.0, 0.0, 0.35)
+
+[led_effect sb_logo_heating]
+leds = 
+	neopixel:sb_leds (1,3,7,8,6,2)
+autostart = false
+frame_rate = 24
+layers = 
+	comet  0.3  0 add (1, 0.18, 0)
+
+[led_effect sb_logo_cooling]
+leds = 
+	neopixel:sb_leds (1,3,7,8,6,2)
+autostart = false
+frame_rate = 24
+layers = 
+	comet  0.3  0 add (0, 0, 1)
+
+[led_effect sb_logo_homing]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.0, 0.6, 0.2)
+
+[led_effect sb_logo_leveling]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.5, 0.1, 0.4)
+
+[led_effect sb_logo_meshing]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.2, 1.0, 0.0)
+
+[led_effect sb_logo_printing]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	gradient  0.3  1 add (0.3, 0.0, 0.0),(0.3, 0.3, 0.0),(0.3, 0.1, 0.0)
+
+[led_effect sb_logo_standby]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.01, 0.01, 0.01)
+
+[led_effect sb_logo_part_ready]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.0, 1.0, 0.0)
+
+[led_effect sb_nozzle_heating]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (9,10)
+layers = 
+	breathing  3 1 top (1.0, 0.18, 0.0, 0.0)
+
+[led_effect sb_nozzle_cooling]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (9,10)
+layers = 
+	breathing  3 1 top (0.0, 0.0, 1.0, 0.1)
+
+[led_effect sb_nozzle_standby]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (9,10)
+layers = 
+	breathing  3 1 top (0.6, 0.0, 0.0, 0.0)
+
+[led_effect sb_nozzle_part_ready]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (9,10)
+layers = 
+	breathing  3 1 top (0.6, 1.0, 0.0, 0.1)
+
+[led_effect sb_critical_error]
+leds = 
+	neopixel:sb_leds
+layers = 
+	strobe         1  1.5   add        (1.0,  1.0, 1.0)
+	breathing      2  0     difference (0.95, 0.0, 0.0)
+	static         1  0     top        (1.0,  0.0, 0.0)
+autostart = false
+frame_rate = 24
+run_on_error = true
+
+[led_effect rainbow]
+leds = 
+	neopixel:sb_leds
+autostart = true
+frame_rate = 24
+layers = 
+	gradient  0.3  1 add (0.3, 0.0, 0.0),(0.0, 0.3, 0.0),(0.0, 0.0, 0.3)
+
+[led_effect set_nozzle_leds]
+leds = 
+	neopixel:sb_leds (9,10)
+autostart = false
+frame_rate = 24
+layers = 
+	static         0  0     top        (0.0,  0.0, 0.0, 1.0)
+
+[led_effect set_logo_leds]
+leds = 
+	neopixel:sb_leds (1,2,3,4,5,6,7,8)
+autostart = false
+frame_rate = 24
+layers = 
+	static         0  0     top        (1.0,  1.0, 1.0)
+
+[gcode_macro set_logo_leds_off]
+gcode = 
+	SET_LED_EFFECT EFFECT=set_logo_leds STOP=1
+
+[gcode_macro set_logo_leds_on]
+gcode = 
+	SET_LED_EFFECT EFFECT=set_logo_leds
+
+[gcode_macro set_nozzle_leds_on]
+gcode = 
+	SET_LED_EFFECT EFFECT=set_nozzle_leds
+
+[gcode_macro set_nozzle_leds_off]
+gcode = 
+	SET_LED_EFFECT EFFECT=set_nozzle_leds STOP=1
+
+[gcode_macro status_off]
+gcode = 
+	STOP_LED_EFFECTS
+
+[gcode_macro status_ready]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=rainbow
+
+[gcode_macro status_part_ready]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_nozzle_part_ready
+	SET_LED_EFFECT EFFECT=sb_logo_part_ready
+
+[gcode_macro status_busy]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_busy
+	set_nozzle_leds_on
+
+[gcode_macro status_heating]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_heating
+	SET_LED_EFFECT EFFECT=sb_nozzle_heating
+
+[gcode_macro status_cooling]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_cooling
+	SET_LED_EFFECT EFFECT=sb_nozzle_cooling
+
+[gcode_macro status_leveling]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_leveling
+	set_nozzle_leds_on
+
+[gcode_macro status_homing]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_homing
+	set_nozzle_leds_on
+
+[gcode_macro status_cleaning]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_cleaning
+	set_nozzle_leds_on
+
+[gcode_macro status_meshing]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_meshing
+	set_nozzle_leds_on
+
+[gcode_macro status_calibrating_z]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_calibrating_z
+	set_nozzle_leds_on
+
+[gcode_macro status_printing]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_printing
+	set_nozzle_leds_on
+
+[mcu]
+serial = /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00
+
+[printer]
+kinematics = corexy
+max_velocity = 300
+max_accel = 10000
+max_accel_to_decel = 5000
+max_z_velocity = 20
+max_z_accel = 350
+square_corner_velocity = 10.0
+
+[stepper_x]
+step_pin = PE11
+dir_pin = PE10
+enable_pin = !PE9
+rotation_distance = 40
+microsteps = 64
+full_steps_per_rotation = 200
+endstop_pin = ^PA1
+position_min = 0
+position_endstop = 350
+position_max = 350
+homing_speed = 150
+homing_retract_dist = 5
+homing_positive_dir = true
+
+[tmc2209 stepper_x]
+uart_pin = PE7
+interpolate = true
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 0
+
+[stepper_y]
+step_pin = PD8
+dir_pin = PB12
+enable_pin = !PD9
+rotation_distance = 40
+microsteps = 64
+full_steps_per_rotation = 200
+endstop_pin = ^PA2
+position_min = -5
+position_endstop = 350
+position_max = 355
+homing_speed = 150
+homing_retract_dist = 5
+homing_positive_dir = true
+
+[tmc2209 stepper_y]
+uart_pin = PE15
+interpolate = true
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 0
+
+[stepper_z]
+step_pin = PD14
+dir_pin = PD13
+enable_pin = !PD15
+rotation_distance = 40
+gear_ratio = 80:16
+microsteps = 64
+endstop_pin = ^PA0
+position_endstop = 0.2
+position_max = 310
+position_min = -5
+homing_speed = 8
+second_homing_speed = 3
+homing_retract_dist = 3
+
+[tmc2209 stepper_z]
+uart_pin = PD10
+interpolate = true
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 99999
+
+[stepper_z1]
+step_pin = PE6
+dir_pin = !PC13
+enable_pin = !PE5
+rotation_distance = 40
+gear_ratio = 80:16
+microsteps = 64
+
+[tmc2209 stepper_z1]
+uart_pin = PC14
+interpolate = true
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 99999
+
+[stepper_z2]
+step_pin = PE2
+dir_pin = PE4
+enable_pin = !PE3
+rotation_distance = 40
+gear_ratio = 80:16
+microsteps = 64
+
+[tmc2209 stepper_z2]
+uart_pin = PC15
+interpolate = true
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 99999
+
+[stepper_z3]
+step_pin = PD12
+dir_pin = !PC4
+enable_pin = !PE8
+rotation_distance = 40
+gear_ratio = 80:16
+microsteps = 64
+
+[tmc2209 stepper_z3]
+uart_pin = PA15
+interpolate = False
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 99999
+
+[extruder]
+step_pin = PD5
+dir_pin = !PD6
+enable_pin = !PD4
+rotation_distance = 21.6073707
+gear_ratio = 50:10
+microsteps = 16
+full_steps_per_rotation = 200
+nozzle_diameter = 0.400
+filament_diameter = 1.75
+heater_pin = PB15
+sensor_type = Generic 3950
+sensor_pin = PC0
+min_temp = 10
+max_temp = 270
+max_power = 1.0
+min_extrude_temp = 170
+pressure_advance = 0.04
+pressure_advance_smooth_time = 0.040
+control = pid
+pid_kp = 24.198
+pid_ki = 1.646
+pid_kd = 88.927
+
+[tmc2209 extruder]
+uart_pin = PD7
+interpolate = false
+run_current = 0.65
+sense_resistor = 0.110
+stealthchop_threshold = 150
+
+[heater_bed]
+heater_pin = PB4
+sensor_type = NTC 100K MGB18-104F39050L32
+sensor_pin = PB0
+max_power = 0.6
+min_temp = 0
+max_temp = 120
+control = pid
+pid_kp = 58.437
+pid_ki = 2.347
+pid_kd = 363.769
+
+[probe]
+pin = ^PB13
+x_offset = 0
+y_offset = 19.75
+z_offset = 3.42
+speed = 5
+samples = 3
+samples_result = median
+sample_retract_dist = 2.0
+samples_tolerance = 0.01
+samples_tolerance_retries = 5
+
+[heater_fan hotend_fan]
+pin = PA13
+max_power = 1.0
+heater = extruder
+heater_temp = 50.0
+
+[fan]
+pin = PA14
+max_power = 1.0
+off_below = 0.10
+
+[heater_fan controller_fan]
+pin = PB2
+heater = heater_bed
+heater_temp = 45.0
+
+[heater_fan nevermore]
+pin = PC8
+max_power = 1.0
+shutdown_speed = 0.0
+kick_start_time = 0.5
+heater = heater_bed
+heater_temp = 60
+
+[temperature_fan chamber]
+pin = PB3
+max_power = 1.0
+shutdown_speed = 0.0
+kick_start_time = 5.0
+off_below = 0.1
+sensor_type = EPCOS 100K B57560G104F
+sensor_pin = PC1
+min_temp = 0
+max_temp = 65
+target_temp = 60.0
+control = watermark
+gcode_id = C
+
+[temperature_sensor raspberry_pi]
+sensor_type = temperature_host
+max_temp = 100
+
+[temperature_sensor mcu_temp]
+sensor_type = temperature_mcu
+max_temp = 100
+
+[idle_timeout]
+timeout = 7200
+
+[quad_gantry_level]
+gantry_corners = 
+	-60,-10
+	410,420
+points = 
+	50,25
+	50,275
+	300,275
+	300,25
+speed = 200
+horizontal_move_z = 10
+retries = 4
+retry_tolerance = 0.0075
+max_adjust = 25
+
+[bed_mesh]
+speed = 200
+horizontal_move_z = 8
+mesh_min = 40, 40
+mesh_max = 310,310
+fade_start = 0.6
+fade_end = 10.0
+probe_count = 5,5
+algorithm = bicubic
+relative_reference_index = 12
+
+[mcu rpi]
+serial = /tmp/klipper_host_mcu
+
+[adxl345]
+cs_pin = rpi:None
+
+[resonance_tester]
+accel_chip = adxl345
+probe_points = 
+	175,175,20
+
+[display]
+lcd_type = uc1701
+cs_pin = PC11
+a0_pin = PD2
+rst_pin = PC10
+encoder_pins = ^PC6,^PC7
+click_pin = ^!PA8
+contrast = 63
+spi_software_mosi_pin = PA7
+spi_software_miso_pin = PA6
+spi_software_sclk_pin = PA5
+
+[neopixel fysetc_mini12864]
+pin = PC12
+chain_count = 3
+initial_red = 0.1
+initial_green = 0.5
+initial_blue = 0.0
+color_order = RGB
+
+[delayed_gcode setdisplayneopixel]
+initial_duration = 1
+gcode = 
+	SET_LED LED=fysetc_mini12864 RED=0 GREEN=1 BLUE=0 INDEX=1 TRANSMIT=0
+	SET_LED LED=fysetc_mini12864 RED=0 GREEN=0 BLUE=0 INDEX=2 TRANSMIT=0
+	SET_LED LED=fysetc_mini12864 RED=0 GREEN=1 BLUE=0 INDEX=3
+
+[input_shaper]
+shaper_type_x = mzv
+shaper_freq_x = 43.8
+shaper_type_y = mzv
+shaper_freq_y = 32.2
+=======================
+Extruder max_extrude_ratio=0.266081
+mcu 'mcu': Starting serial connect
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+webhooks client 1971458376: New connection
+webhooks client 1971458376: Client info {'program': 'Moonraker', 'version': 'v0.7.1-747-g779997c'}
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+Starting Klippy...
+Args: ['/home/pi/klipper/klippy/klippy.py', '/home/pi/klipper_config/printer.cfg', '-l', '/home/pi/klipper_logs/klippy.log', '-a', '/tmp/klippy_uds']
+Git version: 'v0.10.0-615-g96ea871b'
+CPU: 4 core ARMv7 Processor rev 4 (v7l)
+Python: '2.7.18 (default, Jul 14 2021, 08:11:37) \n[GCC 10.2.1 20210110]'
+Start printer at Mon Oct 31 00:57:10 2022 (1667206630.9 13.6)
+===== Config file =====
+[virtual_sdcard]
+path = /home/pi/gcode_files
+
+[pause_resume]
+recover_velocity = 50.0
+
+[display_status]
+
+[gcode_macro CANCEL_PRINT]
+description = Cancel the actual running print
+rename_existing = CANCEL_PRINT_BASE
+gcode = 
+	TURN_OFF_HEATERS
+	CANCEL_PRINT_BASE
+
+[gcode_macro PAUSE]
+description = Pause the actual running print
+rename_existing = PAUSE_BASE
+variable_extrude = 1.0
+gcode = 
+	{% set E = printer["gcode_macro PAUSE"].extrude|float %}
+	{% set x_park = printer.toolhead.axis_maximum.x|float - 5.0 %}
+	{% set y_park = printer.toolhead.axis_maximum.y|float - 5.0 %}
+	{% set max_z = printer.toolhead.axis_maximum.z|float %}
+	{% set act_z = printer.toolhead.position.z|float %}
+	{% if act_z < (max_z - 2.0) %}
+	{% set z_safe = 2.0 %}
+	{% else %}
+	{% set z_safe = max_z - act_z %}
+	{% endif %}
+	PAUSE_BASE
+	G91
+	{% if printer.extruder.can_extrude|lower == 'true' %}
+	G1 E-{E} F2100
+	{% else %}
+	{action_respond_info("Extruder not hot enough")}
+	{% endif %}
+	{% if "xyz" in printer.toolhead.homed_axes %}
+	G1 Z{z_safe} F900
+	G90
+	G1 X{x_park} Y{y_park} F6000
+	{% else %}
+	{action_respond_info("Printer not homed")}
+	{% endif %}
+
+[gcode_macro RESUME]
+description = Resume the actual running print
+rename_existing = RESUME_BASE
+gcode = 
+	{% set E = printer["gcode_macro PAUSE"].extrude|float %}
+	{% if 'VELOCITY' in params|upper %}
+	{% set get_params = ('VELOCITY=' + params.VELOCITY)  %}
+	{%else %}
+	{% set get_params = "" %}
+	{% endif %}
+	{% if printer.extruder.can_extrude|lower == 'true' %}
+	G91
+	G1 E{E} F2100
+	{% else %}
+	{action_respond_info("Extruder not hot enough")}
+	{% endif %}
+	RESUME_BASE {get_params}
+
+[neopixel sb_leds]
+pin = PD3
+chain_count = 10
+color_order = GRB, GRB, GRB, GRB, GRB, GRB, GRB, GRB, GRBW,  GRBW
+initial_red = 1.0
+initial_green = 0.0
+initial_blue = 1.0
+initial_white = 0.0
+
+[led_effect sb_logo_busy]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (1,0,0)
+
+[led_effect sb_logo_cleaning]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.0, 0.02, 0.5)
+
+[led_effect sb_logo_calibrating_z]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.0, 0.0, 0.35)
+
+[led_effect sb_logo_heating]
+leds = 
+	neopixel:sb_leds (1,3,7,8,6,2)
+autostart = false
+frame_rate = 24
+layers = 
+	comet  0.3  0 add (1, 0.18, 0)
+
+[led_effect sb_logo_cooling]
+leds = 
+	neopixel:sb_leds (1,3,7,8,6,2)
+autostart = false
+frame_rate = 24
+layers = 
+	comet  0.3  0 add (0, 0, 1)
+
+[led_effect sb_logo_homing]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.0, 0.6, 0.2)
+
+[led_effect sb_logo_leveling]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.5, 0.1, 0.4)
+
+[led_effect sb_logo_meshing]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.2, 1.0, 0.0)
+
+[led_effect sb_logo_printing]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	gradient  0.3  1 add (0.3, 0.0, 0.0),(0.3, 0.3, 0.0),(0.3, 0.1, 0.0)
+
+[led_effect sb_logo_standby]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.01, 0.01, 0.01)
+
+[led_effect sb_logo_part_ready]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (1-8)
+layers = 
+	breathing  3 1 top (0.0, 1.0, 0.0)
+
+[led_effect sb_nozzle_heating]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (9,10)
+layers = 
+	breathing  3 1 top (1.0, 0.18, 0.0, 0.0)
+
+[led_effect sb_nozzle_cooling]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (9,10)
+layers = 
+	breathing  3 1 top (0.0, 0.0, 1.0, 0.1)
+
+[led_effect sb_nozzle_standby]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (9,10)
+layers = 
+	breathing  3 1 top (0.6, 0.0, 0.0, 0.0)
+
+[led_effect sb_nozzle_part_ready]
+autostart = false
+frame_rate = 24
+leds = 
+	neopixel:sb_leds (9,10)
+layers = 
+	breathing  3 1 top (0.6, 1.0, 0.0, 0.1)
+
+[led_effect sb_critical_error]
+leds = 
+	neopixel:sb_leds
+layers = 
+	strobe         1  1.5   add        (1.0,  1.0, 1.0)
+	breathing      2  0     difference (0.95, 0.0, 0.0)
+	static         1  0     top        (1.0,  0.0, 0.0)
+autostart = false
+frame_rate = 24
+run_on_error = true
+
+[led_effect rainbow]
+leds = 
+	neopixel:sb_leds
+autostart = true
+frame_rate = 24
+layers = 
+	gradient  0.3  1 add (0.3, 0.0, 0.0),(0.0, 0.3, 0.0),(0.0, 0.0, 0.3)
+
+[led_effect set_nozzle_leds]
+leds = 
+	neopixel:sb_leds (9,10)
+autostart = false
+frame_rate = 24
+layers = 
+	static         0  0     top        (0.0,  0.0, 0.0, 1.0)
+
+[led_effect set_logo_leds]
+leds = 
+	neopixel:sb_leds (1,2,3,4,5,6,7,8)
+autostart = false
+frame_rate = 24
+layers = 
+	static         0  0     top        (1.0,  1.0, 1.0)
+
+[gcode_macro set_logo_leds_off]
+gcode = 
+	SET_LED_EFFECT EFFECT=set_logo_leds STOP=1
+
+[gcode_macro set_logo_leds_on]
+gcode = 
+	SET_LED_EFFECT EFFECT=set_logo_leds
+
+[gcode_macro set_nozzle_leds_on]
+gcode = 
+	SET_LED_EFFECT EFFECT=set_nozzle_leds
+
+[gcode_macro set_nozzle_leds_off]
+gcode = 
+	SET_LED_EFFECT EFFECT=set_nozzle_leds STOP=1
+
+[gcode_macro status_off]
+gcode = 
+	STOP_LED_EFFECTS
+
+[gcode_macro status_ready]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=rainbow
+
+[gcode_macro status_part_ready]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_nozzle_part_ready
+	SET_LED_EFFECT EFFECT=sb_logo_part_ready
+
+[gcode_macro status_busy]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_busy
+	set_nozzle_leds_on
+
+[gcode_macro status_heating]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_heating
+	SET_LED_EFFECT EFFECT=sb_nozzle_heating
+
+[gcode_macro status_cooling]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_cooling
+	SET_LED_EFFECT EFFECT=sb_nozzle_cooling
+
+[gcode_macro status_leveling]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_leveling
+	set_nozzle_leds_on
+
+[gcode_macro status_homing]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_homing
+	set_nozzle_leds_on
+
+[gcode_macro status_cleaning]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_cleaning
+	set_nozzle_leds_on
+
+[gcode_macro status_meshing]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_meshing
+	set_nozzle_leds_on
+
+[gcode_macro status_calibrating_z]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_calibrating_z
+	set_nozzle_leds_on
+
+[gcode_macro status_printing]
+gcode = 
+	STOP_LED_EFFECTS
+	SET_LED_EFFECT EFFECT=sb_logo_printing
+	set_nozzle_leds_on
+
+[mcu]
+serial = /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00
+
+[printer]
+kinematics = corexy
+max_velocity = 300
+max_accel = 10000
+max_accel_to_decel = 5000
+max_z_velocity = 20
+max_z_accel = 350
+square_corner_velocity = 10.0
+
+[stepper_x]
+step_pin = PE11
+dir_pin = PE10
+enable_pin = !PE9
+rotation_distance = 40
+microsteps = 64
+full_steps_per_rotation = 200
+endstop_pin = ^PA1
+position_min = 0
+position_endstop = 350
+position_max = 350
+homing_speed = 150
+homing_retract_dist = 5
+homing_positive_dir = true
+
+[tmc2209 stepper_x]
+uart_pin = PE7
+interpolate = true
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 0
+
+[stepper_y]
+step_pin = PD8
+dir_pin = PB12
+enable_pin = !PD9
+rotation_distance = 40
+microsteps = 64
+full_steps_per_rotation = 200
+endstop_pin = ^PA2
+position_min = -5
+position_endstop = 350
+position_max = 355
+homing_speed = 150
+homing_retract_dist = 5
+homing_positive_dir = true
+
+[tmc2209 stepper_y]
+uart_pin = PE15
+interpolate = true
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 0
+
+[stepper_z]
+step_pin = PD14
+dir_pin = PD13
+enable_pin = !PD15
+rotation_distance = 40
+gear_ratio = 80:16
+microsteps = 64
+endstop_pin = ^PA0
+position_endstop = 0.2
+position_max = 310
+position_min = -5
+homing_speed = 8
+second_homing_speed = 3
+homing_retract_dist = 3
+
+[tmc2209 stepper_z]
+uart_pin = PD10
+interpolate = true
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 99999
+
+[stepper_z1]
+step_pin = PE6
+dir_pin = !PC13
+enable_pin = !PE5
+rotation_distance = 40
+gear_ratio = 80:16
+microsteps = 64
+
+[tmc2209 stepper_z1]
+uart_pin = PC14
+interpolate = true
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 99999
+
+[stepper_z2]
+step_pin = PE2
+dir_pin = PE4
+enable_pin = !PE3
+rotation_distance = 40
+gear_ratio = 80:16
+microsteps = 64
+
+[tmc2209 stepper_z2]
+uart_pin = PC15
+interpolate = true
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 99999
+
+[stepper_z3]
+step_pin = PD12
+dir_pin = !PC4
+enable_pin = !PE8
+rotation_distance = 40
+gear_ratio = 80:16
+microsteps = 64
+
+[tmc2209 stepper_z3]
+uart_pin = PA15
+interpolate = False
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 99999
+
+[extruder]
+step_pin = PD5
+dir_pin = !PD6
+enable_pin = !PD4
+rotation_distance = 21.6073707
+gear_ratio = 50:10
+microsteps = 16
+full_steps_per_rotation = 200
+nozzle_diameter = 0.400
+filament_diameter = 1.75
+heater_pin = PB15
+sensor_type = Generic 3950
+sensor_pin = PC0
+min_temp = 10
+max_temp = 270
+max_power = 1.0
+min_extrude_temp = 170
+pressure_advance = 0.04
+pressure_advance_smooth_time = 0.040
+control = pid
+pid_kp = 24.198
+pid_ki = 1.646
+pid_kd = 88.927
+
+[tmc2209 extruder]
+uart_pin = PD7
+interpolate = false
+run_current = 0.65
+sense_resistor = 0.110
+stealthchop_threshold = 150
+
+[heater_bed]
+heater_pin = PB4
+sensor_type = NTC 100K MGB18-104F39050L32
+sensor_pin = PB0
+max_power = 0.6
+min_temp = 0
+max_temp = 120
+control = pid
+pid_kp = 58.437
+pid_ki = 2.347
+pid_kd = 363.769
+
+[probe]
+pin = ^PB13
+x_offset = 0
+y_offset = 19.75
+z_offset = 3.42
+speed = 5
+samples = 3
+samples_result = median
+sample_retract_dist = 2.0
+samples_tolerance = 0.01
+samples_tolerance_retries = 5
+
+[heater_fan hotend_fan]
+pin = PA13
+max_power = 1.0
+heater = extruder
+heater_temp = 50.0
+
+[fan]
+pin = PA14
+max_power = 1.0
+off_below = 0.10
+
+[heater_fan controller_fan]
+pin = PB2
+heater = heater_bed
+heater_temp = 45.0
+
+[heater_fan nevermore]
+pin = PC8
+max_power = 1.0
+shutdown_speed = 0.0
+kick_start_time = 0.5
+heater = heater_bed
+heater_temp = 60
+
+[temperature_fan chamber]
+pin = PB3
+max_power = 1.0
+shutdown_speed = 0.0
+kick_start_time = 5.0
+off_below = 0.1
+sensor_type = EPCOS 100K B57560G104F
+sensor_pin = PC1
+min_temp = 0
+max_temp = 65
+target_temp = 60.0
+control = watermark
+gcode_id = C
+
+[temperature_sensor raspberry_pi]
+sensor_type = temperature_host
+max_temp = 100
+
+[temperature_sensor mcu_temp]
+sensor_type = temperature_mcu
+max_temp = 100
+
+[idle_timeout]
+timeout = 7200
+
+[quad_gantry_level]
+gantry_corners = 
+	-60,-10
+	410,420
+points = 
+	50,25
+	50,275
+	300,275
+	300,25
+speed = 200
+horizontal_move_z = 10
+retries = 4
+retry_tolerance = 0.0075
+max_adjust = 25
+
+[bed_mesh]
+speed = 200
+horizontal_move_z = 8
+mesh_min = 40, 40
+mesh_max = 310,310
+fade_start = 0.6
+fade_end = 10.0
+probe_count = 5,5
+algorithm = bicubic
+relative_reference_index = 12
+
+[mcu rpi]
+serial = /tmp/klipper_host_mcu
+
+[adxl345]
+cs_pin = rpi:None
+
+[resonance_tester]
+accel_chip = adxl345
+probe_points = 
+	175,175,20
+
+[display]
+lcd_type = uc1701
+cs_pin = PC11
+a0_pin = PD2
+rst_pin = PC10
+encoder_pins = ^PC6,^PC7
+click_pin = ^!PA8
+contrast = 63
+spi_software_mosi_pin = PA7
+spi_software_miso_pin = PA6
+spi_software_sclk_pin = PA5
+
+[neopixel fysetc_mini12864]
+pin = PC12
+chain_count = 3
+initial_red = 0.1
+initial_green = 0.5
+initial_blue = 0.0
+color_order = RGB
+
+[delayed_gcode setdisplayneopixel]
+initial_duration = 1
+gcode = 
+	SET_LED LED=fysetc_mini12864 RED=0 GREEN=1 BLUE=0 INDEX=1 TRANSMIT=0
+	SET_LED LED=fysetc_mini12864 RED=0 GREEN=0 BLUE=0 INDEX=2 TRANSMIT=0
+	SET_LED LED=fysetc_mini12864 RED=0 GREEN=1 BLUE=0 INDEX=3
+
+[input_shaper]
+shaper_type_x = mzv
+shaper_freq_x = 43.8
+shaper_type_y = mzv
+shaper_freq_y = 32.2
+=======================
+Extruder max_extrude_ratio=0.266081
+mcu 'mcu': Starting serial connect
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+webhooks client 1970970496: New connection
+webhooks client 1970970496: Client info {'program': 'Moonraker', 'version': 'v0.7.1-747-g779997c'}
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-Klipper_stm32f446xx_32003C001850563046363120-if00'
